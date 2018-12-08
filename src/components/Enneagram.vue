@@ -1,15 +1,19 @@
 <template>
   <div class="enneagram">
-    <img src="Enneagram.svg" />
+    <EnneagramSvg />
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-property-decorator'
+import EnneagramSvg from '../assets/enneagram/Enneagram.svg'
 
-@Component
+@Component({
+  components: {
+    EnneagramSvg,
+  },
+})
 export default class Enneagram extends Vue {
-  @Prop() private msg!: string;
 }
 </script>
 
