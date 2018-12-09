@@ -29,5 +29,5 @@ yarn run lint
 
 ```
 git fetch enneagram.svg master
-git subtree pull --prefix public/img/enneagram enneagram.svg master --squash
+git subtree pull --prefix src/assets/enneagram enneagram.svg master --squash
 ```
