@@ -25,6 +25,12 @@ yarn run test
 yarn run lint
 ```
 
+== ToDo Ideas
+
+* Add names by different authors
+* add i18n
+* add links to books and online references with details
+
 == Update Enneagram.svg
 
 ```
