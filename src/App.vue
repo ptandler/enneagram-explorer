@@ -6,11 +6,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
-import Enneagram from './components/Enneagram.vue'
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { Component, Vue } from "vue-property-decorator"
+import Enneagram from "./components/Enneagram.vue"
+import BootstrapVue from "bootstrap-vue"
+import "bootstrap/dist/css/bootstrap.css"
+import "bootstrap-vue/dist/bootstrap-vue.css"
 
 Vue.use(BootstrapVue)
 
@@ -24,7 +24,7 @@ export default class App extends Vue {}
 
 <style lang="scss">
 #app {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;

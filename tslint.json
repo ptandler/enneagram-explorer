@@ -1,16 +1,11 @@
 {
   "defaultSeverity": "warning",
-  "extends": [
-    "tslint:recommended"
-  ],
+  "extends": ["tslint:recommended", "tslint-plugin-prettier", "tslint-config-prettier"],
   "linterOptions": {
-    "exclude": [
-      "node_modules/**"
-    ]
+    "exclude": ["node_modules/**"]
   },
   "rules": {
-    "quotemark": [true, "single"],
-    "indent": [true, "spaces", 2],
+    "prettier": true,
     "interface-name": false,
     "ordered-imports": false,
     "object-literal-sort-keys": false,
