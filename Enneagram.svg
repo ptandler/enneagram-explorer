@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="200mm"
@@ -17,7 +18,7 @@
    sodipodi:docname="Enneagram.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <title
-     id="Enneagram">Enneagram</title>
+     id="title">Enneagram</title>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="365.39739"
+     inkscape:zoom="1"
+     inkscape:cx="323.552"
      inkscape:cy="368.89735"
      inkscape:document-units="mm"
-     inkscape:current-layer="svg8"
+     inkscape:current-layer="drawing"
      showgrid="false"
      inkscape:pagecheckerboard="false"
      fit-margin-top="5"
@@ -39,10 +40,58 @@
      inkscape:window-width="1798"
      inkscape:window-height="1057"
      inkscape:window-x="114"
-     inkscape:window-y="1072"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <defs
      id="defs1">
+    <linearGradient
+       inkscape:collect="always"
+       id="orange_red_violet">
+      <stop
+         style="stop-color:#800080;stop-opacity:1"
+         offset="0"
+         id="stop1586" />
+      <stop
+         id="stop1594"
+         offset="0.5"
+         style="stop-color:#ff0000;stop-opacity:1" />
+      <stop
+         style="stop-color:#ff8000;stop-opacity:1"
+         offset="1"
+         id="stop1588" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="violet_blue_green">
+      <stop
+         style="stop-color:#800080;stop-opacity:1"
+         offset="0"
+         id="stop1576" />
+      <stop
+         id="stop1584"
+         offset="0.5"
+         style="stop-color:#0000ff;stop-opacity:1" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1"
+         offset="1"
+         id="stop1578" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="green_yellow_orange">
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1"
+         offset="0"
+         id="stop1111" />
+      <stop
+         id="stop1574"
+         offset="0.5"
+         style="stop-color:#ffff00;stop-opacity:1" />
+      <stop
+         style="stop-color:#ff8000;stop-opacity:1"
+         offset="1"
+         id="stop1113" />
+    </linearGradient>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
@@ -460,6 +509,33 @@ text {
 	fill: black;
 }
 ]]></style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#green_yellow_orange"
+       id="linearGradient1117"
+       x1="115.16053"
+       y1="199.70763"
+       x2="194.76363"
+       y2="62.883923"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#violet_blue_green"
+       id="linearGradient1582"
+       x1="35.401772"
+       y1="63.489304"
+       x2="114.78073"
+       y2="199.8112"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#orange_red_violet"
+       id="linearGradient1592"
+       x1="35.414948"
+       y1="62.883926"
+       x2="194.76362"
+       y2="62.883926"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata1">
@@ -470,36 +546,39 @@ text {
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>Enneagram</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>https://github.com/ptandler</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2019-06-02</dc:date>
+        <dc:source>https://gist.github.com/ptandler/5b676312b58242c801ac1cdabce07902</dc:source>
+        <dc:description>Enneagram of Personality</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>personality</rdf:li>
+            <rdf:li>typology</rdf:li>
+            <rdf:li>psychology</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
       </cc:Work>
-      <dc:date>05.02.2008</dc:date>
-      <dc:creator>
-        <cc:Agent>
-          <dc:title>ptandler</dc:title>
-        </cc:Agent>
-      </dc:creator>
-      <dc:subject>
-        <rdf:Bag>
-          <rdf:li>Enneagram</rdf:li>
-        </rdf:Bag>
-      </dc:subject>
-      <dc:description>Enneagram of Personality</dc:description>
-      <cc:license
-         rdf:resource="http://web.resource.org/cc/PublicDomain" />
       <cc:License
-         rdf:about="http://web.resource.org/cc/PublicDomain">
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
         <cc:permits
-           rdf:resource="http://web.resource.org/cc/Reproduction" />
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
         <cc:permits
-           rdf:resource="http://web.resource.org/cc/Distribution" />
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
         <cc:permits
-           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
       </cc:License>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layerHelpers"
-     inkscape:label="Helpers"
+     id="helpers"
+     inkscape:label="helpers"
      style="display:none"
      sodipodi:insensitive="true">
     <path
@@ -539,25 +618,34 @@ text {
   </g>
   <g
      transform="translate(-15.089287,-8.8839268)"
-     inkscape:label="Drawing"
-     id="layerDrawing"
+     inkscape:label="drawing"
+     id="drawing"
      inkscape:groupmode="layer"
      style="display:inline">
-    <circle
-       inkscape:connector-curvature="0"
-       cx="115.08929"
-       cy="108.88393"
-       r="92"
-       id="circle826"
-       inkscape:label="BackgroundCircle"
-       style="display:inline;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:2" />
+    <g
+       inkscape:groupmode="layer"
+       id="background"
+       inkscape:label="background"
+       transform="translate(15.089287,8.8839268)"
+       style="display:inline">
+      <circle
+         inkscape:connector-curvature="0"
+         cx="100"
+         cy="100"
+         r="92"
+         id="circleBackground"
+         inkscape:label="circleBackground"
+         style="display:inline;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:2" />
+    </g>
     <g
        id="centers"
-       style="display:inline">
+       style="display:inline"
+       inkscape:groupmode="layer"
+       inkscape:label="centers">
       <path
-         style="fill:#07f500;fill-opacity:1;stroke:none;stroke-width:2"
+         style="fill:url(#linearGradient1117);fill-opacity:1;stroke:none;stroke-width:2"
          inkscape:label="centerHeart"
-         id="backgroundCircle"
+         id="centerHeart"
          inkscape:connector-curvature="0"
          sodipodi:type="arc"
          sodipodi:cx="115.08929"
@@ -569,9 +657,9 @@ text {
          d="m 194.76362,62.883924 a 92,92 0 0 1 1e-5,91.999996 92,92 0 0 1 -79.67434,46.00001 l 0,-92 z" />
       <path
          inkscape:connector-curvature="0"
-         id="path828"
+         id="centerHead"
          inkscape:label="centerHead"
-         style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:2"
+         style="fill:url(#linearGradient1582);fill-opacity:1;stroke:none;stroke-width:2"
          sodipodi:type="arc"
          sodipodi:cx="115.08929"
          sodipodi:cy="108.88393"
@@ -590,29 +678,58 @@ text {
          sodipodi:cx="115.08929"
          sodipodi:type="arc"
          inkscape:connector-curvature="0"
-         id="path830"
+         id="centerGut"
          inkscape:label="centerGut"
-         style="fill:#f50007;fill-opacity:1;stroke:none;stroke-width:2" />
+         style="fill:url(#linearGradient1592);fill-opacity:1;stroke:none;stroke-width:2" />
       <path
          inkscape:connector-curvature="0"
-         id="path4537"
+         id="centerLineHeadHeart"
          d="m 114.78073,108.66593 v 91.14527 l 0.3798,-0.10357"
          style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          inkscape:connector-curvature="0"
-         id="path4539"
+         id="centerLineHeartGut"
          d="M 114.78082,108.65785 194.15987,63.489304 V 63.222032"
          style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.5291667;stroke-miterlimit:4;stroke-dasharray:none"
          d="M 114.78082,108.65785 35.40177,63.489304 v -0.267272"
-         id="path4541"
+         id="centerLineGutHead"
          inkscape:connector-curvature="0" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="enneagram"
+       inkscape:label="enneagram"
+       style="display:inline">
+      <circle
+         id="circle"
+         cx="115.08929"
+         cy="108.88393"
+         r="77.508163"
+         inkscape:label="circle"
+         style="fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:insensitive="true" />
+      <path
+         id="triangle"
+         inkscape:label="triangle"
+         d="M 49.035509,146.86466 H 181.14307 L 115.0893,32.594403 Z"
+         inkscape:connector-curvature="0"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:insensitive="true" />
+      <path
+         d="M 164.17015,49.956891 140.76294,181.01509 190.00663,95.612156 66.369752,49.556013 88.724432,180.8018 40.167729,94.997976 Z"
+         id="pentagon"
+         inkscape:connector-curvature="0"
+         inkscape:label="pentagon"
+         style="display:inline;fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:insensitive="true" />
     </g>
     <g
        id="numbers"
        inkscape:label="numbers"
-       style="display:inline">
+       style="display:inline"
+       inkscape:groupmode="layer">
       <text
          id="number1"
          y="47.18586"
@@ -723,7 +840,9 @@ text {
            style="stroke-width:0.26458332px">9</tspan></text>
       <g
          id="plusMinus"
-         inkscape:label="plusMinus">
+         inkscape:label="plusMinus"
+         inkscape:groupmode="layer"
+         style="display:none">
         <text
            id="text6583"
            y="53.600327"
@@ -831,32 +950,11 @@ text {
              sodipodi:role="line">(±)</tspan></text>
       </g>
     </g>
-    <circle
-       id="circle"
-       cx="115.08929"
-       cy="108.88393"
-       r="77.508163"
-       inkscape:label="circle"
-       style="fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
-       sodipodi:insensitive="true" />
-    <path
-       id="triangle"
-       inkscape:label="triangle"
-       d="M 49.035509,146.86466 H 181.14307 L 115.0893,32.594403 Z"
-       inkscape:connector-curvature="0"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
-       sodipodi:insensitive="true" />
-    <path
-       d="M 164.17015,49.956891 140.76294,181.01509 190.00663,95.612156 66.369752,49.556013 88.724432,180.8018 40.167729,94.997976 Z"
-       id="pentagon"
-       inkscape:connector-curvature="0"
-       inkscape:label="pentagon"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
-       sodipodi:insensitive="true" />
     <g
        id="arrowsDisintegration"
        inkscape:label="arrowsDisintegration"
-       style="display:inline">
+       style="display:none"
+       inkscape:groupmode="layer">
       <path
          inkscape:connector-curvature="0"
          id="arrow96"
@@ -914,7 +1012,8 @@ text {
     <g
        inkscape:label="arrowsIntegration"
        id="arrowsIntegration"
-       style="display:inline">
+       style="display:none"
+       inkscape:groupmode="layer">
       <path
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker6224)"
          d="M 115.0893,32.594403 49.035508,146.86466"
