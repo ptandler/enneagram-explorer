@@ -4,7 +4,8 @@
       <p slot="header" class="font-weight-bold">
         {{ number }}
         <span
-          style="float: right;"
+          class="center"
+          :class="{ ['center-' + centerName]: true }"
           v-b-tooltip
           :title="centers[defaultCenter][centerName]"
           v-b-modal="'modal-center-' + centerName"
@@ -127,5 +128,28 @@ export default class EnneaNumber extends Vue {
     display: block;
     border-top: 1px dashed lightgray;
   }
+}
+
+.center {
+  float: right;
+}
+
+.center-heart {
+  color: yellow;
+}
+.center-head {
+  color: blue;
+}
+.center-gut {
+  color: red;
+}
+
+// show / hide center information if enabled / disabled
+.showCenters .center {
+  display: block !important;
+}
+
+.hideCenters .center {
+  display: none !important;
 }
 </style>
