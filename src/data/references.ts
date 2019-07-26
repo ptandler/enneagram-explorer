@@ -14,6 +14,9 @@ export default {
   riso: {
     author: "D. R. Riso",
   },
+  riso_hudson: {
+    author: "Don Richard Riso, Russ Hudson",
+  },
   hurley_dobson: {
     author: "Hurley / Dobson",
   },

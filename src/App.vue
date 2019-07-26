@@ -1,16 +1,15 @@
 <template>
-  <div id="app">
-    <h1>Enneagram Explorer</h1>
+  <b-container id="app">
+    <h1>Enneagramm Explorer</h1>
     <Enneagram />
-  </div>
+  </b-container>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator"
 import Enneagram from "./components/Enneagram.vue"
 import BootstrapVue from "bootstrap-vue"
-import "bootstrap/dist/css/bootstrap.css"
-import "bootstrap-vue/dist/bootstrap-vue.css"
+import "./scss/custom.scss"
 
 Vue.use(BootstrapVue)
 

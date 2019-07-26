@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --modern && browserlist > docs/supported-browsers.txt",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write src/**/*.{ts,js,vue,css,less,scss,html,json,md} test/**/*.{js,vue,css,less,scss,html,json,md} build/*.js",
     "prettier-watch": "onchange 'src/**/*.{ts,js,vue,css,less,scss,html,json,md}' -- prettier --write {{changed}}"
@@ -13,7 +13,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/vue-fontawesome": "^0.1.6",
-    "bootstrap-vue": "^2.0.0-rc.26",
+    "bootstrap-vue": "^2.0.0-rc.27",
+    "core-js": "^2.6.5",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
@@ -23,22 +24,20 @@
     "@vue/cli-plugin-babel": "^3.9.2",
     "@vue/cli-plugin-pwa": "^3.9.0",
     "@vue/cli-plugin-typescript": "^3.9.0",
-    "@vue/cli-service": "^3.9.2",
-    "husky": "^2.2.0",
-    "lint-staged": "^8.1.6",
-    "node-sass": "^4.12.0",
+    "@vue/cli-service": "^3.9.3",
+    "lint-staged": "^9.2.1",
     "prettier": "1.18.2",
+    "sass": "^1.18.0",
     "sass-loader": "^7.0.1",
+    "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.5.3",
     "vue-svg-loader": "^0.12.0",
     "vue-template-compiler": "^2.6.10"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "*.{ts,js,vue,css,less,scss,html,json,md}": [
