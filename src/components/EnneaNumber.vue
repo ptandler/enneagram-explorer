@@ -3,7 +3,13 @@
     <b-card no-body>
       <p slot="header" class="font-weight-bold">
         {{ number }}
-        <font-awesome-icon :icon="faIconName" style="float: right;" />
+        <span
+          style="float: right;"
+          v-b-tooltip
+          :title="centers[defaultCenter][centerName]"
+          v-b-modal="'modal-center-' + centerName"
+          ><font-awesome-icon :icon="faIconName"
+        /></span>
         <span
           v-for="(name, ref) in names"
           :key="ref"
@@ -36,9 +42,10 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator"
-import names from "../data/names"
-import references from "../data/references"
-import emotions from "../data/emotions"
+import centers, { defaultCenter } from "@/data/centers"
+import names from "@/data/names"
+import references from "@/data/references"
+import { emotions } from "@/data/contents"
 
 @Component({
   components: {},
@@ -53,6 +60,14 @@ export default class EnneaNumber extends Vue {
     return names
   }
 
+  get centers() {
+    return centers
+  }
+
+  get defaultCenter() {
+    return defaultCenter
+  }
+
   get references() {
     return references
   }
@@ -62,16 +77,26 @@ export default class EnneaNumber extends Vue {
   }
 
   get faIconName() {
+    switch (this.centerName) {
+      case "heart":
+        return "heart"
+      case "head":
+        return "smile"
+    }
+    return "tshirt"
+  }
+
+  get centerName() {
     const n = parseInt((this as any).number, 10)
     if (n >= 2) {
       if (n <= 4) {
         return "heart"
       }
       if (n <= 7) {
-        return "smile"
+        return "head"
       }
     }
-    return "tshirt"
+    return "gut"
   }
 }
 </script>

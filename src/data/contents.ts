@@ -1,4 +1,4 @@
-export default {
+export const emotions = {
   reifarth: {
     1: "Zorn",
     2: "Stolz",

@@ -14,7 +14,6 @@
       showArrowsDisintegration: showArrowsDisintegration,
       hideArrowsDisintegration: !showArrowsDisintegration,
     }"
-    class="enneagram"
   >
     <b-card no-body class="col-lg-3 tabs-container">
       <b-tabs vertical pills fill card>
@@ -60,6 +59,10 @@
       </b-tabs>
     </b-card>
     <b-card class="content col-lg-9">
+      <!-- information about the 3 centers -->
+      <CenterInfoModal v-for="centerId in centerIds" :key="centerId" :centerId="centerId" />
+
+      <!-- 3x3 grid as basis for the graphic and the boxes with description -->
       <b-row align-h="center">
         <b-col cols="3">
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="8" />
@@ -104,13 +107,16 @@
 import { Component, Prop, Vue } from "vue-property-decorator"
 import EnneagramSvg from "../assets/enneagram/Enneagram.svg"
 import EnneaNumber from "./EnneaNumber.vue"
-import names from "../data/names"
-import references from "../data/references"
-import emotions from "../data/emotions"
+import names from "@/data/names"
+import references from "@/data/references"
+import { emotions } from "@/data/contents"
+import { centerIds } from "@/data/centers"
 import IntroText from "@/components/IntroText.vue"
+import CenterInfoModal from "@/components/CenterInfoModal.vue"
 
 @Component({
   components: {
+    CenterInfoModal,
     IntroText,
     EnneagramSvg,
     EnneaNumber,
@@ -125,6 +131,10 @@ export default class Enneagram extends Vue {
   public showArrowsDisintegration = false
   public showNames = ["hurley_dobson"]
   public showEmotions = ["riso_hudson"]
+
+  get centerIds() {
+    return centerIds
+  }
 
   get names() {
     return names

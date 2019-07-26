@@ -3,6 +3,11 @@
  *
  * reference: Reifarth, p. 38
  */
+
+export const defaultCenter = "rohr_ebert"
+export type Centers = "heart" | "head" | "gut"
+export const centerIds: Centers[] = ["heart", "head", "gut"]
+
 export default {
   rohr_ebert: {
     heart: "Herzzentrum",
