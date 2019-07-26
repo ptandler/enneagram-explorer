@@ -42,37 +42,39 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator"
+import { Vue, Component, Prop } from "vue-property-decorator"
 import centers, { defaultCenter } from "@/data/centers"
 import names from "@/data/names"
 import references from "@/data/references"
 import { emotions } from "@/data/contents"
 
-@Component({
-  components: {},
-  props: {
-    number: String,
-    showNames: Array,
-    showEmotions: Array,
-  },
-})
+@Component
 export default class EnneaNumber extends Vue {
+  @Prop(String) protected readonly number: string | undefined
+  @Prop(Array) protected readonly showNames: string[] | undefined
+  @Prop(Array) protected readonly showEmotions: string[] | undefined
+
+  // noinspection JSMethodCanBeStatic
   get names() {
     return names
   }
 
+  // noinspection JSMethodCanBeStatic
   get centers() {
     return centers
   }
 
+  // noinspection JSMethodCanBeStatic
   get defaultCenter() {
     return defaultCenter
   }
 
+  // noinspection JSMethodCanBeStatic
   get references() {
     return references
   }
 
+  // noinspection JSMethodCanBeStatic
   get emotions() {
     return emotions
   }

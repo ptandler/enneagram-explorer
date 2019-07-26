@@ -8,15 +8,18 @@ import { Vue, Component, Prop } from "vue-property-decorator"
 import centers, { defaultCenter, Centers } from "@/data/centers"
 import references from "@/data/references"
 
-@Component({})
+@Component
 export default class CenterInfoModal extends Vue {
   @Prop({
     type: String,
     required: true,
   })
-  protected readonly centerId: Centers
+  protected readonly centerId: Centers | undefined
 
   get title() {
+    if (!this.centerId) {
+      return ""
+    }
     return centers[defaultCenter][this.centerId]
   }
   get centers() {
