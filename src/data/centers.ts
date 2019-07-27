@@ -14,7 +14,7 @@ export default {
     head: "Kopfzentrum",
     gut: "Bauchzentrum",
   },
-  riso: {
+  riso_hudson: {
     heart: "Gefühlstriade",
     head: "Handlungstriade",
     gut: "Beziehungstriade",

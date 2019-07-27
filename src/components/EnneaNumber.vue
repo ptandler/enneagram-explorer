@@ -23,19 +23,28 @@
         </span>
       </p>
       <b-card-body>
-        <!--        <p class="card-text"></p>-->
-        <b-list-group flush>
-          <b-list-group-item
+        <b-card-text
+          ><b>Leidenschaft</b>:
+          <span
             v-for="(emotion, ref) in emotions"
             :key="ref"
             v-if="showEmotions.indexOf(ref) >= 0"
             v-b-tooltip
             :title="references[ref].author"
-            class="emotion"
+            class="content emotion"
           >
             {{ emotion[number] }}
-          </b-list-group-item>
-        </b-list-group>
+          </span>
+        </b-card-text>
+        <b-card-text
+          v-for="(content, i) in contents"
+          :key="i"
+          v-b-tooltip
+          :title="references[content.refId].author + ', ' + content.page"
+          class="content"
+          ><b>{{ content.title }}</b
+          >: {{ content[number] }}
+        </b-card-text>
       </b-card-body>
     </b-card>
   </div>
@@ -46,13 +55,15 @@ import { Vue, Component, Prop } from "vue-property-decorator"
 import centers, { defaultCenter } from "@/data/centers"
 import names from "@/data/names"
 import references from "@/data/references"
-import { emotions } from "@/data/contents"
+import { contents, emotions } from "@/data/contents"
 
 @Component
 export default class EnneaNumber extends Vue {
   @Prop(String) protected readonly number: string | undefined
   @Prop(Array) protected readonly showNames: string[] | undefined
   @Prop(Array) protected readonly showEmotions: string[] | undefined
+
+  // getters needed to make imported data available to template
 
   // noinspection JSMethodCanBeStatic
   get names() {
@@ -77,6 +88,11 @@ export default class EnneaNumber extends Vue {
   // noinspection JSMethodCanBeStatic
   get emotions() {
     return emotions
+  }
+
+  // noinspection JSMethodCanBeStatic
+  get contents() {
+    return contents
   }
 
   get faIconName() {
@@ -104,7 +120,7 @@ export default class EnneaNumber extends Vue {
 }
 </script>
 
-<style scoped lang="scss">
+<style scoped lang="scss" scoped>
 .card {
   // margin: 0.5em;
   max-height: 25vh;
@@ -120,6 +136,9 @@ export default class EnneaNumber extends Vue {
 
   .card-body {
     padding: 0;
+    p {
+      margin-bottom: 3px;
+    }
   }
 
   .list-group-item {

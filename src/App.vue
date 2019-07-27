@@ -1,6 +1,6 @@
 <template>
-  <b-container id="app">
-    <h1>Enneagramm Explorer</h1>
+  <b-container id="app" fluid>
+    <h1 class="text-center">Enneagramm Explorer</h1>
     <Enneagram />
   </b-container>
 </template>
@@ -27,6 +27,6 @@ export default class App extends Vue {}
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 3px;
 }
 </style>

@@ -13,17 +13,23 @@
       hideArrowsIntegration: !showArrowsIntegration,
       showArrowsDisintegration: showArrowsDisintegration,
       hideArrowsDisintegration: !showArrowsDisintegration,
+      showAxes: showAxes,
+      hideAxes: !showAxes,
+      showSocialStyles: showSocialStyles,
+      hideSocialStyles: !showSocialStyles,
     }"
   >
     <b-card no-body class="col-lg-3 tabs-container">
-      <b-tabs vertical pills fill card>
+      <b-tabs v-model="tabIndex" vertical pills fill card>
         <b-tab active title="Intro">
-          <IntroText />
+          <IntroText v-on:show-tab-ref="showTabRef()" />
         </b-tab>
         <b-tab title="Enneagram">
           <b-form>
             <!-- <b-form-checkbox id="showHelpers" v-model="showHelpers">Helpers</b-form-checkbox> -->
-            <b-form-checkbox id="showCenters" v-model="showCenters">3 Zentren<!-- Centers --></b-form-checkbox>
+            <b-form-checkbox id="showCenters" v-model="showCenters"
+              >3 Zentren / Triaden<!-- Centers --></b-form-checkbox
+            >
             <b-form-checkbox id="showArrowsIntegration" v-model="showArrowsIntegration"
               >Entwicklungsrichtung<!--Direction of
                         integration-->
@@ -31,6 +37,12 @@
             <b-form-checkbox id="showArrowsDisintegration" v-model="showArrowsDisintegration">
               Verwicklungsrichtung<!--Direction of
                         disintegration-->
+            </b-form-checkbox>
+            <b-form-checkbox id="showSocialStyles" v-model="showSocialStyles">
+              Sozialstil (&bdquo;Horney&rsquo;schen Gruppen&ldquo;) </b-form-checkbox
+            ><Ref id="riso_hudson" page="S. 92" v-on:show-tab-ref="showTabRef()" />
+            <b-form-checkbox id="showAxes" v-model="showAxes">
+              Achsen und Tendenzen
             </b-form-checkbox>
           </b-form>
         </b-tab>
@@ -45,7 +57,8 @@
             {{ references[ref].author }}
           </b-form-checkbox>
         </b-tab>
-        <b-tab title="Emotionen">
+        <b-tab title="Eigenschaften">
+          <h5>Leidenschaften</h5>
           <b-form-checkbox
             :id="'showEmotion_' + ref"
             :key="ref"
@@ -56,29 +69,64 @@
             {{ references[ref].author }}
           </b-form-checkbox>
         </b-tab>
+        <b-tab title="Quellen / Literatur">
+          <References />
+        </b-tab>
       </b-tabs>
     </b-card>
-    <b-card class="content col-lg-9">
+    <b-card class="col-lg-9 content">
       <!-- information about the 3 centers -->
       <CenterInfoModal v-for="centerId in centerIds" :key="centerId" :centerId="centerId" />
 
       <!-- 3x3 grid as basis for the graphic and the boxes with description -->
       <b-row align-h="center">
         <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="8" />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="8"
+          />
         </b-col>
         <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="9" />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="9"
+          />
         </b-col>
         <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="1" />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="1"
+          />
         </b-col>
       </b-row>
       <b-row align-v="center">
         <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="7" />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="7"
+          />
           <br />
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="6" />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="6"
+          />
+          <br />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="5"
+          />
         </b-col>
         <b-col cols="6">
           <div class="enneagram">
@@ -86,17 +134,26 @@
           </div>
         </b-col>
         <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="2" />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="2"
+          />
           <br />
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="3" />
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col cols="3" offset="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="5" />
-        </b-col>
-        <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" number="4" />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="3"
+          />
+          <br />
+          <EnneaNumber
+            :show-emotions="showEmotions"
+            :show-names="showNames"
+            v-on:show-tab-ref="showTabRef()"
+            number="4"
+          />
         </b-col>
       </b-row>
     </b-card>
@@ -104,7 +161,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator"
+import { Vue, Component } from "vue-property-decorator"
 import EnneagramSvg from "../assets/enneagram/Enneagram.svg"
 import EnneaNumber from "./EnneaNumber.vue"
 import names from "@/data/names"
@@ -112,14 +169,18 @@ import references from "@/data/references"
 import { emotions } from "@/data/contents"
 import { centerIds } from "@/data/centers"
 import IntroText from "@/components/IntroText.vue"
+import Ref from "@/components/Ref.vue"
+import References from "@/components/References.vue"
 import CenterInfoModal from "@/components/CenterInfoModal.vue"
 
 @Component({
   components: {
-    CenterInfoModal,
-    IntroText,
     EnneagramSvg,
     EnneaNumber,
+    CenterInfoModal,
+    IntroText,
+    Ref,
+    References,
   },
 })
 export default class Enneagram extends Vue {
@@ -129,8 +190,17 @@ export default class Enneagram extends Vue {
   public showPlusMinus = true
   public showArrowsIntegration = false
   public showArrowsDisintegration = false
+  public showAxes = false
+  public showSocialStyles = false
   public showNames = ["hurley_dobson"]
   public showEmotions = ["riso_hudson"]
+  public tabIndex = 1
+
+  // switch to the "references" tab
+  public showTabRef() {
+    this.tabIndex = 4
+  }
+  // getters needed to make imported data available to template
 
   get centerIds() {
     return centerIds
@@ -155,6 +225,8 @@ export default class Enneagram extends Vue {
 
 <style lang="scss" scoped>
 // todo how to use the '~' alias here? I think the aliases are currently configured just for TS
+
+// all these imports needed to get the media-breakpoint-up mixin ...
 @import "../scss/custom_variables";
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
@@ -164,17 +236,24 @@ export default class Enneagram extends Vue {
   max-height: 20vh;
 }
 
-@include media-breakpoint-up(lg) {
-  .tabs-container {
-    max-height: none;
-  }
-}
 .content {
   font-size: 12px;
 }
 .enneagram svg {
   max-height: 40vh;
   max-width: 100%;
+}
+
+// when menu is to the side
+@include media-breakpoint-up(lg) {
+  .tabs-container {
+    max-height: none;
+  }
+
+  .enneagram svg {
+    max-height: 55vh;
+    max-width: 100%;
+  }
 }
 
 // rules to show / hide parts of the Enneagram.svg
@@ -187,11 +266,13 @@ export default class Enneagram extends Vue {
   display: none !important;
 }
 
-.showCenters svg #centers {
+.showCenters svg #centers,
+.showCenters svg #plusMinus {
   display: block !important;
 }
 
-.hideCenters svg #centers {
+.hideCenters svg #centers,
+.hideCenters svg #plusMinus {
   display: none !important;
 }
 
@@ -208,6 +289,22 @@ export default class Enneagram extends Vue {
 }
 
 .hideArrowsDisintegration svg #arrowsDisintegration {
+  display: none !important;
+}
+
+.showAxes svg #axes {
+  display: block !important;
+}
+
+.hideAxes svg #axes {
+  display: none !important;
+}
+
+.showSocialStyles svg #socialStyle {
+  display: block !important;
+}
+
+.hideSocialStyles svg #socialStyle {
   display: none !important;
 }
 </style>
