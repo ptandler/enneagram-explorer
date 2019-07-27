@@ -5,17 +5,21 @@ export default {
   reifarth: {
     author: "W. Reifarth",
   },
+  riso_hudson: {
+    author: "Don Richard Riso, Russ Hudson",
+    title: "Die Weisheit des Enneagramms",
+    src: "https://www.buch7.de/store/product_details/101950272",
+    ebook: "https://www.buch7.de/store/product_details/1022975110",
+    ISBN: "978-3442162871",
+  },
+  riso: {
+    author: "D. R. Riso",
+  },
   boeschemeyer: {
     author: "Böschemeyer",
   },
   rohr_ebert: {
     author: "Rohr / Ebert",
-  },
-  riso: {
-    author: "D. R. Riso",
-  },
-  riso_hudson: {
-    author: "Don Richard Riso, Russ Hudson",
   },
   hurley_dobson: {
     author: "Hurley / Dobson",
