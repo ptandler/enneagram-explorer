@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="266.02814mm"
-   height="193.79512mm"
-   viewBox="0 0 266.02814 193.79512"
+   width="252.29305mm"
+   height="262.14899mm"
+   viewBox="0 0 252.29305 262.14899"
    version="1.1"
    id="svg8"
    sodipodi:docname="Enneagram.svg"
@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="615.75182"
-     inkscape:cy="351.64753"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="377.99043"
+     inkscape:cy="576.00817"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="diagonalAxesLabels"
      showgrid="false"
      inkscape:pagecheckerboard="false"
      fit-margin-top="5"
@@ -517,7 +517,7 @@
        inkscape:isstock="true">
       <path
          id="path918"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          inkscape:connector-curvature="0" />
@@ -609,7 +609,7 @@ text {
      inkscape:label="helpers"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(24.643595,-6.4709878)">
+     transform="translate(19.198619,35.72671)">
     <path
        inkscape:connector-curvature="0"
        id="helperHorizontal"
@@ -646,7 +646,7 @@ text {
        sodipodi:insensitive="true" />
   </g>
   <g
-     transform="translate(9.5543083,-15.354915)"
+     transform="translate(4.1093322,26.842781)"
      inkscape:label="drawing"
      id="drawing"
      inkscape:groupmode="layer"
@@ -984,7 +984,7 @@ text {
     <g
        id="arrowsDisintegration"
        inkscape:label="arrowsDisintegration"
-       style="display:inline"
+       style="display:none"
        inkscape:groupmode="layer">
       <path
          inkscape:connector-curvature="0"
@@ -1043,7 +1043,7 @@ text {
     <g
        inkscape:label="arrowsIntegration"
        id="arrowsIntegration"
-       style="display:inline"
+       style="display:none"
        inkscape:groupmode="layer">
       <path
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker6224)"
@@ -1104,19 +1104,146 @@ text {
      inkscape:groupmode="layer"
      id="dimensions"
      inkscape:label="dimensions"
-     transform="translate(24.643595,-6.4709878)">
+     transform="translate(19.198619,35.72671)">
     <g
        inkscape:groupmode="layer"
-       id="layer4"
-       inkscape:label="axes">
+       id="axes"
+       inkscape:label="axes"
+       style="display:inline">
       <g
          inkscape:groupmode="layer"
-         id="layer6"
-         inkscape:label="diagonalAxes" />
+         id="diagonalAxes"
+         inkscape:label="diagonalAxes"
+         style="display:inline">
+        <g
+           inkscape:groupmode="layer"
+           id="diagonalAxesLabels"
+           inkscape:label="diagonalAxesLabels"
+           style="display:inline">
+          <text
+             inkscape:label="number2"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="19.480047"
+             y="-27.760786"
+             id="text5187"
+             transform="rotate(61.736502)"><tspan
+               sodipodi:role="line"
+               id="tspan5199"
+               x="19.480047"
+               y="-27.760786">Chaos-Achse</tspan></text>
+          <text
+             transform="rotate(-60.861428)"
+             id="text5195"
+             y="147.28777"
+             x="76.356712"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             xml:space="preserve"
+             inkscape:label="number2"><tspan
+               sodipodi:role="line"
+               id="tspan5201"
+               x="76.356712"
+               y="147.28777">Ordnungs-Achse</tspan></text>
+          <text
+             transform="rotate(40.421495)"
+             id="text5213"
+             y="-3.6134706"
+             x="15.009501"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             xml:space="preserve"
+             inkscape:label="number2"><tspan
+               sodipodi:role="line"
+               id="tspan5215"
+               x="15.009501"
+               y="-3.6134706">Durchsetzungs-Achse</tspan></text>
+          <text
+             inkscape:label="number2"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="130.47441"
+             y="129.59225"
+             id="text5228"
+             transform="rotate(-42.153022)"><tspan
+               sodipodi:role="line"
+               id="tspan5230"
+               x="130.47441"
+               y="129.59225">Pflicht-Achse</tspan></text>
+          <text
+             transform="rotate(79.394397)"
+             id="text5238"
+             y="-89.448143"
+             x="3.3889167"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             xml:space="preserve"
+             inkscape:label="number2"><tspan
+               sodipodi:role="line"
+               id="tspan5256"
+               x="3.388917"
+               y="-89.448143">Depressive</tspan><tspan
+               sodipodi:role="line"
+               id="tspan5258"
+               x="3.3889163"
+               y="-84.156479">Tendenz</tspan></text>
+          <text
+             inkscape:label="number2"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             x="28.336777"
+             y="107.70789"
+             id="text5250"
+             transform="rotate(-82.088312)"><tspan
+               sodipodi:role="line"
+               id="tspan5260"
+               x="28.336777"
+               y="107.70789">Resignative</tspan><tspan
+               sodipodi:role="line"
+               id="tspan5262"
+               x="28.336777"
+               y="112.99956">Tendenz</tspan></text>
+        </g>
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path5183"
+           d="M 21.437375,-13.843471 149.6236,217.26108"
+           style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5, 0.49999999;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5, 0.49999998;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 180.33397,-13.843471 49.593261,217.26108"
+           id="path5197"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path5207"
+           d="M 204.63712,-5.9760629 -6.515346,172.72429"
+           style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999991, 0.49999995;stroke-dashoffset:0;stroke-opacity:1" />
+        <path
+           style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999991, 0.49999995;stroke-dashoffset:0;stroke-opacity:1"
+           d="M -6.515346,-7.8469496 204.63712,170.8534"
+           id="path5209"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999997, 0.49999997;stroke-dashoffset:0;stroke-opacity:1"
+           d="M 91.211869,-30.685483 133.35647,221.38105"
+           id="path5232"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           id="path5234"
+           d="M 109.03494,-30.685483 66.890342,221.38105"
+           style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999997, 0.49999997;stroke-dashoffset:0;stroke-opacity:1" />
+      </g>
       <g
          inkscape:groupmode="layer"
-         id="layer5"
-         inkscape:label="horizontalAxes">
+         id="horizontalAxes"
+         inkscape:label="horizontalAxes"
+         style="display:inline"
+         sodipodi:insensitive="true">
         <path
            style="fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5, 0.5;stroke-dashoffset:0;stroke-opacity:1"
            d="M -11.353482,40.45777 H 228.09443"
@@ -1141,13 +1268,67 @@ text {
            id="path5136"
            d="M -11.353482,172.74944 H 228.09443"
            style="fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5, 0.5;stroke-dashoffset:0;stroke-opacity:1" />
+        <g
+           inkscape:groupmode="layer"
+           id="horizontalAxesLabels"
+           inkscape:label="horizontalAxesLabels">
+          <text
+             id="text5140"
+             y="38.033665"
+             x="225.56967"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             xml:space="preserve"
+             inkscape:label="number2"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               y="38.033665"
+               x="225.56967"
+               id="tspan5138"
+               sodipodi:role="line">Handlungs-Achse</tspan></text>
+          <text
+             inkscape:label="number2"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="226.62801"
+             y="84.071167"
+             id="text5144"><tspan
+               sodipodi:role="line"
+               id="tspan5142"
+               x="226.62801"
+               y="84.071167"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px">Mitteilungs-Achse</tspan></text>
+          <text
+             id="text5168"
+             y="134.60658"
+             x="226.62801"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"
+             inkscape:label="number2"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px"
+               y="134.60658"
+               x="226.62801"
+               id="tspan5166"
+               sodipodi:role="line">Vorzeige-Achse</tspan></text>
+          <text
+             inkscape:label="number2"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="226.62801"
+             y="169.267"
+             id="text5172"><tspan
+               sodipodi:role="line"
+               id="tspan5170"
+               x="226.62801"
+               y="169.267"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px">Innterlichkeits-Achse</tspan></text>
+        </g>
       </g>
     </g>
     <g
        inkscape:groupmode="layer"
        id="socialStyle"
        inkscape:label="socialStyle"
-       style="display:inline">
+       style="display:inline"
+       sodipodi:insensitive="true">
       <path
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#aaaaaa;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.3, 1.3;stroke-dashoffset:0;stroke-opacity:1"
          d="m 100.00001,25.81688 c 8.24024,48.998037 16.4805,97.99608 24.72074,146.99413 -16.4805,0 -32.960989,0 -49.441488,0 8.24025,-48.99805 16.4805,-97.996093 24.720748,-146.99413 z"
@@ -1204,54 +1385,6 @@ text {
              x="27.39677"
              y="62.904499"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px">Die Selbtbewussten</tspan></text>
-        <text
-           id="text5140"
-           y="38.033665"
-           x="225.56967"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           xml:space="preserve"
-           inkscape:label="number2"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             y="38.033665"
-             x="225.56967"
-             id="tspan5138"
-             sodipodi:role="line">Handlungs-Achse</tspan></text>
-        <text
-           inkscape:label="number2"
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.62801"
-           y="84.071167"
-           id="text5144"><tspan
-             sodipodi:role="line"
-             id="tspan5142"
-             x="226.62801"
-             y="84.071167"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px">Mitteilungs-Achse</tspan></text>
-        <text
-           id="text5168"
-           y="134.60658"
-           x="226.62801"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"
-           inkscape:label="number2"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px"
-             y="134.60658"
-             x="226.62801"
-             id="tspan5166"
-             sodipodi:role="line">Vorzeige-Achse</tspan></text>
-        <text
-           inkscape:label="number2"
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="226.62801"
-           y="169.267"
-           id="text5172"><tspan
-             sodipodi:role="line"
-             id="tspan5170"
-             x="226.62801"
-             y="169.267"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px">Innterlichkeits-Achse</tspan></text>
       </g>
     </g>
   </g>
