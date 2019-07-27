@@ -1,4 +1,5 @@
 = enneagram-explorer
+:source-highlighter: highlightjs
 
 == Project setup
 ```
@@ -44,7 +45,10 @@ yarn run lint
 
 == Update Enneagram.svg
 
-```
-git fetch enneagram.svg master
-git subtree pull --prefix src/assets/enneagram enneagram.svg master --squash
-```
+How to update the embedded Enneagram.svg:
+
+[source,bash]
+----
+$ git fetch enneagram.svg additional_layers
+$ git subtree pull --prefix src/assets/enneagram enneagram.svg additional_layers --squash
+----
