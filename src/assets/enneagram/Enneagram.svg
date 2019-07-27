@@ -984,7 +984,7 @@ text {
     <g
        id="arrowsDisintegration"
        inkscape:label="arrowsDisintegration"
-       style="display:none"
+       style="display:inline"
        inkscape:groupmode="layer">
       <path
          inkscape:connector-curvature="0"
@@ -1043,7 +1043,7 @@ text {
     <g
        inkscape:label="arrowsIntegration"
        id="arrowsIntegration"
-       style="display:none"
+       style="display:inline"
        inkscape:groupmode="layer">
       <path
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker6224)"
