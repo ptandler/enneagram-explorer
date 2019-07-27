@@ -1,23 +1,24 @@
 <template>
   <b-container id="app" fluid>
-    <h1 class="text-center">Enneagramm Explorer</h1>
-    <Enneagram />
+    <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar-brand to="/enneagram">Enneagramm Explorer</b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item to="/">Intro</b-nav-item>
+          <b-nav-item to="/enneagram">Enneagramm</b-nav-item>
+          <b-nav-item to="/references">Quellen</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+    <router-view></router-view>
   </b-container>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator"
-import Enneagram from "./components/Enneagram.vue"
-import BootstrapVue from "bootstrap-vue"
-import "./scss/custom.scss"
 
-Vue.use(BootstrapVue)
-
-@Component({
-  components: {
-    Enneagram,
-  },
-})
+@Component
 export default class App extends Vue {}
 </script>
 

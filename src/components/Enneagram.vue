@@ -21,10 +21,7 @@
   >
     <b-card no-body class="col-lg-3 tabs-container">
       <b-tabs v-model="tabIndex" vertical pills fill card>
-        <b-tab active title="Intro">
-          <IntroText v-on:show-tab-ref="showTabRef()" />
-        </b-tab>
-        <b-tab title="Enneagram">
+        <b-tab title="Enneagramm">
           <b-form>
             <!-- <b-form-checkbox id="showHelpers" v-model="showHelpers">Helpers</b-form-checkbox> -->
             <b-form-checkbox id="showCenters" v-model="showCenters"
@@ -68,9 +65,6 @@
           >
             {{ references[ref].author }}
           </b-form-checkbox>
-        </b-tab>
-        <b-tab title="Quellen / Literatur">
-          <References />
         </b-tab>
       </b-tabs>
     </b-card>
@@ -168,9 +162,7 @@ import names from "@/data/names"
 import references from "@/data/references"
 import { emotions } from "@/data/contents"
 import { centerIds } from "@/data/centers"
-import IntroText from "@/components/IntroText.vue"
 import Ref from "@/components/Ref.vue"
-import References from "@/components/References.vue"
 import CenterInfoModal from "@/components/CenterInfoModal.vue"
 
 @Component({
@@ -178,9 +170,7 @@ import CenterInfoModal from "@/components/CenterInfoModal.vue"
     EnneagramSvg,
     EnneaNumber,
     CenterInfoModal,
-    IntroText,
     Ref,
-    References,
   },
 })
 export default class Enneagram extends Vue {

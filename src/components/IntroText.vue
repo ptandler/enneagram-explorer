@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h5>Erkunde das Enneagram!</h5>
+    <h5>Erkunde das Enneagramm!</h5>
     <p>
-      Um dich näher mit dem Enneagram zu beschäftigen, kannst Du bestimmte Elemente in der Grafik und Beschriftung über
+      Um dich näher mit dem Enneagramm zu beschäftigen, kannst Du bestimmte Elemente in der Grafik und Beschriftung über
       die Schaltflächten in diesem Menü ein- bzw. ausblenden.
     </p>
     <p>
@@ -13,6 +13,9 @@
     <p>
       Die von mir verwendeten Quellen habe ich in dem
       <a href="#" @click="$emit('show-tab-ref')">entsprechenden Reiter</a> aufgeführt.
+    </p>
+    <p>
+      <b-button to="/enneagram">Weiter zum Enneagram</b-button>
     </p>
   </div>
 </template>
