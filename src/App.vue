@@ -1,7 +1,7 @@
 <template>
   <b-container id="app" fluid>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand to="/enneagram">Enneagramm Explorer</b-navbar-brand>
+      <b-navbar-brand to="/enneagram">Enneagramm-Explorer</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>

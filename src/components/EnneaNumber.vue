@@ -5,7 +5,7 @@
         {{ number }}
         <span
           class="center"
-          :class="{ ['center-' + centerName]: true }"
+          :class="{ ['center-' + centerName]: true, ['number-' + number]: true }"
           v-b-tooltip
           :title="centers[defaultCenter][centerName]"
           v-b-modal="'modal-center-' + centerName"
@@ -123,9 +123,11 @@ export default class EnneaNumber extends Vue {
 </script>
 
 <style scoped lang="scss" scoped>
+@import "../scss/custom_variables";
+
 .card {
-  // margin: 0.5em;
-  max-height: 25vh;
+  margin: 15px;
+  max-height: 22vh;
   overflow-y: auto;
 
   .card-header {
@@ -157,14 +159,10 @@ export default class EnneaNumber extends Vue {
   float: right;
 }
 
-.center-heart {
-  color: yellow;
-}
-.center-head {
-  color: blue;
-}
-.center-gut {
-  color: red;
+@each $i, $color in $colors {
+  .number-#{$i} {
+    color: $color;
+  }
 }
 
 // show / hide center information if enabled / disabled

@@ -15,7 +15,7 @@
       <b-link to="/references">Quellen habe ich auf der entsprechenden Seite</b-link> aufgeführt.
     </p>
     <p>
-      <b-button to="/enneagram">Weiter zum Enneagram</b-button>
+      <b-button to="/enneagram">Weiter zum Enneagramm</b-button>
     </p>
   </div>
 </template>

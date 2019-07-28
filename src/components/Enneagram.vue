@@ -20,7 +20,7 @@
     }"
   >
     <b-card no-body class="col-lg-3 tabs-container">
-      <b-tabs v-model="tabIndex" vertical pills fill card>
+      <b-tabs v-model="tabIndex" pills fill card>
         <b-tab title="Namen">
           <b-form-checkbox
             :id="'showName_' + ref"
@@ -47,10 +47,10 @@
                         disintegration-->
             </b-form-checkbox>
             <b-form-checkbox id="showSocialStyles" v-model="showSocialStyles">
-              Sozialstil (&bdquo;Horney&rsquo;schen Gruppen&ldquo;) </b-form-checkbox
-            ><Ref id="riso_hudson" page="S. 92" />
+              Sozialstil (&bdquo;Horney&rsquo;schen Gruppen&ldquo;) <Ref id="riso_hudson" page="S. 92" />
+            </b-form-checkbox>
             <b-form-checkbox id="showAxes" v-model="showAxes">
-              Achsen und Tendenzen
+              Achsen und Tendenzen<Ref id="reifarth" page="S. 227-231" />
             </b-form-checkbox>
           </b-form>
         </b-tab>
@@ -99,9 +99,7 @@
       <b-row align-v="center">
         <b-col cols="3">
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="7" />
-          <br />
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="6" />
-          <br />
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="5" />
         </b-col>
         <b-col cols="6">
@@ -111,9 +109,7 @@
         </b-col>
         <b-col cols="3">
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="2" />
-          <br />
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="3" />
-          <br />
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="4" />
         </b-col>
       </b-row>
