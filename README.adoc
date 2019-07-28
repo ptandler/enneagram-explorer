@@ -49,8 +49,8 @@ How to update the embedded Enneagram.svg:
 
 [source,bash]
 ----
-$ git fetch enneagram.svg additional_layers
-$ git subtree pull --prefix src/assets/enneagram enneagram.svg additional_layers
+$ git fetch enneagram.svg master
+$ git subtree pull --prefix src/assets/enneagram enneagram.svg master
 ----
 
 You might want to consider the `--squash` option when pulling / merging.

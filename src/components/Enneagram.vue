@@ -21,7 +21,18 @@
   >
     <b-card no-body class="col-lg-3 tabs-container">
       <b-tabs v-model="tabIndex" vertical pills fill card>
-        <b-tab title="Enneagramm">
+        <b-tab title="Namen">
+          <b-form-checkbox
+            :id="'showName_' + ref"
+            :key="ref"
+            :value="ref"
+            v-for="(name, ref) in names"
+            v-model="showNames"
+          >
+            {{ references[ref].author }}
+          </b-form-checkbox>
+        </b-tab>
+        <b-tab title="Elemente">
           <b-form>
             <!-- <b-form-checkbox id="showHelpers" v-model="showHelpers">Helpers</b-form-checkbox> -->
             <b-form-checkbox id="showCenters" v-model="showCenters"
@@ -37,33 +48,34 @@
             </b-form-checkbox>
             <b-form-checkbox id="showSocialStyles" v-model="showSocialStyles">
               Sozialstil (&bdquo;Horney&rsquo;schen Gruppen&ldquo;) </b-form-checkbox
-            ><Ref id="riso_hudson" page="S. 92" v-on:show-tab-ref="showTabRef()" />
+            ><Ref id="riso_hudson" page="S. 92" />
             <b-form-checkbox id="showAxes" v-model="showAxes">
               Achsen und Tendenzen
             </b-form-checkbox>
           </b-form>
         </b-tab>
-        <b-tab title="Namen">
-          <b-form-checkbox
-            :id="'showName_' + ref"
-            :key="ref"
-            :value="ref"
-            v-for="(name, ref) in names"
-            v-model="showNames"
-          >
-            {{ references[ref].author }}
-          </b-form-checkbox>
-        </b-tab>
         <b-tab title="Eigenschaften">
           <h5>Leidenschaften</h5>
           <b-form-checkbox
-            :id="'showEmotion_' + ref"
-            :key="ref"
-            :value="ref"
             v-for="(emotion, ref) in emotions"
+            :key="ref"
+            :id="'showEmotion_' + ref"
+            :value="ref"
             v-model="showEmotions"
           >
             {{ references[ref].author }}
+          </b-form-checkbox>
+
+          <h5>Weitere Eigenschaften</h5>
+          <b-form-checkbox
+            v-for="(content, ref) in contents"
+            v-if="!content.showIf"
+            :key="ref"
+            :id="content.title"
+            :value="content.title"
+            v-model="showPlainContents"
+          >
+            {{ content.title }}
           </b-form-checkbox>
         </b-tab>
       </b-tabs>
@@ -75,52 +87,22 @@
       <!-- 3x3 grid as basis for the graphic and the boxes with description -->
       <b-row align-h="center">
         <b-col cols="3">
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="8"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="8" />
         </b-col>
         <b-col cols="3">
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="9"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="9" />
         </b-col>
         <b-col cols="3">
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="1"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="1" />
         </b-col>
       </b-row>
       <b-row align-v="center">
         <b-col cols="3">
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="7"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="7" />
           <br />
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="6"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="6" />
           <br />
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="5"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="5" />
         </b-col>
         <b-col cols="6">
           <div class="enneagram">
@@ -128,26 +110,11 @@
           </div>
         </b-col>
         <b-col cols="3">
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="2"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="2" />
           <br />
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="3"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="3" />
           <br />
-          <EnneaNumber
-            :show-emotions="showEmotions"
-            :show-names="showNames"
-            v-on:show-tab-ref="showTabRef()"
-            number="4"
-          />
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="4" />
         </b-col>
       </b-row>
     </b-card>
@@ -160,7 +127,7 @@ import EnneagramSvg from "../assets/enneagram/Enneagram.svg"
 import EnneaNumber from "./EnneaNumber.vue"
 import names from "@/data/names"
 import references from "@/data/references"
-import { emotions } from "@/data/contents"
+import { contents, emotions } from "@/data/contents"
 import { centerIds } from "@/data/centers"
 import Ref from "@/components/Ref.vue"
 import CenterInfoModal from "@/components/CenterInfoModal.vue"
@@ -183,13 +150,21 @@ export default class Enneagram extends Vue {
   public showAxes = false
   public showSocialStyles = false
   public showNames = ["hurley_dobson"]
-  public showEmotions = ["riso_hudson"]
+  public showEmotions = ["enneallionce"]
+  public showPlainContents = ["Grundangst", "Grundbedürfnis"]
   public tabIndex = 1
 
-  // switch to the "references" tab
-  public showTabRef() {
-    this.tabIndex = 4
+  get showContents() {
+    const combinedContents: any = {
+      showArrowsIntegration: this.showArrowsIntegration,
+      showArrowsDisintegration: this.showArrowsDisintegration,
+    }
+    for (const key of this.showPlainContents) {
+      combinedContents[key] = true
+    }
+    return combinedContents
   }
+
   // getters needed to make imported data available to template
 
   get centerIds() {
@@ -206,6 +181,10 @@ export default class Enneagram extends Vue {
 
   get emotions() {
     return emotions
+  }
+
+  get contents() {
+    return contents
   }
 
   // public created() {

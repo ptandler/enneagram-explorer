@@ -109,4 +109,16 @@ export default {
     8: "Der Vermittler",
     9: "Der Liebende",
   },
+  parkin: {
+    page: "S. 176, Abb. 7",
+    1: "Der Herrscher",
+    2: "Die Mutter",
+    3: "Der Magier",
+    4: "Der Künstler",
+    5: "Der Philosoph",
+    6: "Der Held",
+    7: "Der Narr",
+    8: "Der Krieger",
+    9: "Der Heilige",
+  },
 }

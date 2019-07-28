@@ -11,8 +11,8 @@
       zu können, genügen die hier aufgeführten Informationen ganz bestimmt nicht. Das soll auch nicht die Absicht sein.
     </p>
     <p>
-      Die von mir verwendeten Quellen habe ich in dem
-      <a href="#" @click="$emit('show-tab-ref')">entsprechenden Reiter</a> aufgeführt.
+      Die von mir verwendeten
+      <b-link to="/references">Quellen habe ich auf der entsprechenden Seite</b-link> aufgeführt.
     </p>
     <p>
       <b-button to="/enneagram">Weiter zum Enneagram</b-button>

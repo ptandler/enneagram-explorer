@@ -39,6 +39,7 @@
         <b-card-text
           v-for="(content, i) in contents"
           :key="i"
+          v-show="showContents[content.showIf || content.title]"
           v-b-tooltip
           :title="references[content.refId].author + ', ' + content.page"
           class="content"
@@ -62,6 +63,7 @@ export default class EnneaNumber extends Vue {
   @Prop(String) protected readonly number: string | undefined
   @Prop(Array) protected readonly showNames: string[] | undefined
   @Prop(Array) protected readonly showEmotions: string[] | undefined
+  @Prop(Object) protected readonly showContents: any | undefined
 
   // getters needed to make imported data available to template
 

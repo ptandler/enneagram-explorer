@@ -6,9 +6,14 @@
     </p>
     <ul>
       <li v-for="(lit, ref) in references" :key="ref" v-if="!lit.citedBy">
-        {{ lit.author }}. <i>{{ lit.title }}</i
-        >. {{ lit.year }}. <a :href="lit.src" v-if="lit.ISBN">ISBN {{ lit.ISBN }}</a
-        ><span v-if="lit.ebook"> (<a :href="lit.ebook" target="_blank">E-Book</a>)</span>
+        <span v-if="lit.author" class="author">{{ lit.author }}. </span
+        ><span v-if="lit.src && lit.title" class="title"
+          ><b-link :href="lit.src" target="_blank">{{ lit.title }}</b-link
+          >. </span
+        ><span v-else-if="lit.title" class="title">{{ lit.title }}. </span
+        ><span v-if="lit.year" class="year">{{ lit.year }}. </span
+        ><span v-if="lit.ISBN" class="isbn">ISBN {{ lit.ISBN }} </span
+        ><span v-if="lit.ebook" class="ebook">(<b-link :href="lit.ebook" target="_blank">E-Book</b-link>) </span>
       </li>
     </ul>
     <h5>Weitere Literatur</h5>
@@ -17,9 +22,15 @@
     </p>
     <ul>
       <li v-for="(lit, ref) in references" :key="ref" v-if="lit.citedBy">
-        {{ lit.author }}. <i>{{ lit.title }}</i
-        >. {{ lit.year }}. <a :href="lit.src" target="_blank" v-if="lit.ISBN">ISBN {{ lit.ISBN }}</a
-        ><span v-if="lit.ebook"> (<a :href="lit.ebook">E-Book</a>)</span> (zitiert in
+        <span v-if="lit.author" class="author">{{ lit.author }}. </span
+        ><span v-if="lit.src && lit.title" class="title"
+          ><b-link :href="lit.src" target="_blank">{{ lit.title }}</b-link
+          >. </span
+        ><span v-else-if="lit.title" class="title">{{ lit.title }}. </span
+        ><span v-if="lit.year" class="year">{{ lit.year }}. </span
+        ><span v-if="lit.ISBN" class="isbn">ISBN {{ lit.ISBN }} </span
+        ><span v-if="lit.ebook" class="ebook">(<b-link :href="lit.ebook" target="_blank">E-Book</b-link>) </span>
+        (zitiert in
         {{ references[lit.citedBy].author }})
       </li>
     </ul>
@@ -39,3 +50,8 @@ export default class References extends Vue {
   }
 }
 </script>
+<style scoped lang="scss">
+.title {
+  font-style: italic;
+}
+</style>
