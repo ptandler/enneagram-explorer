@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="316.41504mm"
+   width="335.87225mm"
    height="270.3848mm"
-   viewBox="0 0 316.41505 270.3848"
+   viewBox="0 0 335.87227 270.3848"
    version="1.1"
    id="svg8"
-   sodipodi:docname="Enneagram.svg"
+   sodipodi:docname="Enneagram-inkscape.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <title
      id="title">Enneagram</title>
@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="563.52936"
+     inkscape:cx="611.51489"
      inkscape:cy="576.01556"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
@@ -609,7 +609,7 @@ text {
      inkscape:label="helpers"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(47.431866,43.960564)">
+     transform="translate(57.160477,43.960564)">
     <path
        inkscape:connector-curvature="0"
        id="helperHorizontal"
@@ -646,7 +646,7 @@ text {
        sodipodi:insensitive="true" />
   </g>
   <g
-     transform="translate(32.342579,35.076635)"
+     transform="translate(42.07119,35.076635)"
      inkscape:label="drawing"
      id="drawing"
      inkscape:groupmode="layer"
@@ -1104,7 +1104,7 @@ text {
      inkscape:groupmode="layer"
      id="dimensions"
      inkscape:label="dimensions"
-     transform="translate(47.431866,43.960564)">
+     transform="translate(57.160477,43.960564)">
     <g
        inkscape:groupmode="layer"
        id="axes"
@@ -1351,13 +1351,13 @@ text {
            inkscape:label="number2"
            xml:space="preserve"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="172.38843"
-           y="62.904499"
+           x="182.11703"
+           y="55.046776"
            id="number2-0"><tspan
              sodipodi:role="line"
              id="tspan840-3"
-             x="172.38843"
-             y="62.904499"
+             x="182.11703"
+             y="55.046776"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332px">Die Entgegenkommenden</tspan></text>
         <text
            id="text5121"
@@ -1375,13 +1375,13 @@ text {
            inkscape:label="number2"
            xml:space="preserve"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="27.396772"
-           y="62.904499"
+           x="17.668161"
+           y="55.420952"
            id="text5125"><tspan
              sodipodi:role="line"
              id="tspan5123"
-             x="27.396774"
-             y="62.904499"
+             x="17.668163"
+             y="55.420952"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;writing-mode:lr-tb;text-anchor:end;stroke-width:0.26458332px">Die Selbtbewussten</tspan></text>
       </g>
     </g>
