@@ -40,8 +40,8 @@ export default {
     gut: "Die Programme: Wut und Kampf",
   },
   enneallionce: {
-    heart: "Erschaffende Kraft; EITELKEIT: Hin-Bewegung",
-    head: "Bewahrende Kraft; ANGST: Weg-Bewegung",
-    gut: "Zerstörende Kraft; ZORN: Gegen-Bewegung",
+    heart: "Erschaffende Kraft; EITELKEIT: «Hin»-Bewegung",
+    head: "Bewahrende Kraft; ANGST: «Weg»-Bewegung",
+    gut: "Zerstörende Kraft; ZORN: «Gegen»-Bewegung",
   },
 }
