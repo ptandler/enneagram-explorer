@@ -104,7 +104,9 @@ export default class EnneaNumber extends Vue {
       case "head":
         return "smile"
     }
-    return "tshirt"
+    // what to use for "gut"?
+    // options: tshirt, hand-rock, hand-paper, hand-holding-heart, fist-raised
+    return "hand-paper"
   }
 
   get centerName() {
@@ -128,6 +130,9 @@ export default class EnneaNumber extends Vue {
 .card {
   margin: 15px;
   max-height: 22vh;
+  @media (orientation: landscape) {
+    max-height: 40vh;
+  }
   overflow-y: auto;
 
   .card-header {

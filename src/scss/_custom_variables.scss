@@ -6,8 +6,11 @@ $font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "
 $font-family-monospace: "Source Code Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
   monospace;
 $font-family-serif: "Source Serif Pro", serif;
-
+$web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap";
+// not use currently: $web-font-path: "https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro&display=swap";
+$font-size-base: 0.8rem;
 $enable-responsive-font-sizes: true;
+$rfs-base-font-size: 0.5rem;
 
 // redefine some colors to better match Enneagram colors from below
 $green: #00c03e; // Ennea color 5 #18BC9C !default
@@ -33,5 +36,5 @@ $colors: (
   8: $purple,
   //#a400c5,
     9: $red,
-  //#f00,,
+  //#f00,,,,,
 );
