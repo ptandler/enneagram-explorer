@@ -80,37 +80,43 @@
         </b-tab>
       </b-tabs>
     </b-card>
-    <b-card class="col-lg-9 content">
+    <b-card no-body class="col-lg-9 content">
       <!-- information about the 3 centers -->
       <CenterInfoModal v-for="centerId in centerIds" :key="centerId" :centerId="centerId" />
 
       <!-- 3x3 grid as basis for the graphic and the boxes with description -->
       <b-row align-h="center">
-        <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="8" />
-        </b-col>
-        <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="9" />
-        </b-col>
-        <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="1" />
-        </b-col>
-      </b-row>
-      <b-row align-v="center">
-        <b-col cols="3">
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="7" />
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="6" />
-          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="5" />
-        </b-col>
-        <b-col cols="6">
+        <b-col cols="12">
           <div class="enneagram">
             <EnneagramSvg />
           </div>
         </b-col>
-        <b-col cols="3">
+        <b-col cols="12" md="6" lg="4">
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="1" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="2" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="3" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
           <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="4" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="5" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="6" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="7" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="8" />
+        </b-col>
+        <b-col cols="12" md="6" lg="4">
+          <EnneaNumber :show-emotions="showEmotions" :show-names="showNames" :show-contents="showContents" number="9" />
         </b-col>
       </b-row>
     </b-card>
@@ -193,9 +199,9 @@ export default class Enneagram extends Vue {
 
 // all these imports needed to get the media-breakpoint-up mixin ...
 @import "../scss/custom_variables";
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "../../node_modules/bootstrap/scss/mixins/breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/breakpoints";
 
 .tabs-container {
   max-height: 20vh;

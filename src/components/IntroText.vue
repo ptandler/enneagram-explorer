@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <b-container>
     <h5>Erkunde das Enneagramm!</h5>
     <p>
       Um dich näher mit dem Enneagramm zu beschäftigen, kannst Du bestimmte Elemente in der Grafik und Beschriftung über
@@ -17,7 +17,7 @@
     <p>
       <b-button to="/enneagram">Weiter zum Enneagramm</b-button>
     </p>
-  </div>
+  </b-container>
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"

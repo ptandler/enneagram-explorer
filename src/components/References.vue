@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <b-container>
     <h5>Quellen</h5>
     <p>
       Die Informationen in der Darstellung stammen im wesentlichen aus diesen Quellen:
@@ -34,7 +34,7 @@
         {{ references[lit.citedBy].author }})
       </li>
     </ul>
-  </div>
+  </b-container>
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"

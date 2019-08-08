@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern && browserlist > docs/supported-browsers.txt",
     "lint": "vue-cli-service lint",
-    "prettier": "prettier --write src/**/*.{ts,js,vue,css,less,scss,html,json,md} test/**/*.{js,vue,css,less,scss,html,json,md} build/*.js",
+    "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,md}",
     "prettier-watch": "onchange 'src/**/*.{ts,js,vue,css,less,scss,html,json,md}' -- prettier --write {{changed}}"
   },
   "dependencies": {
@@ -41,7 +41,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{ts,js,vue,css,less,scss,html,json,md}": [
+    "*.{ts,js,vue,css,less,sass,scss,html,json,md}": [
       "prettier --write",
       "git add"
     ]

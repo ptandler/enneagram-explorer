@@ -1,6 +1,6 @@
 <template>
   <b-container id="app" fluid>
-    <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar toggleable="sm" type="dark" variant="primary">
       <b-navbar-brand to="/enneagram">Enneagramm-Explorer</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
@@ -23,11 +23,27 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
+@import "scss/custom_variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/breakpoints";
+
 #app {
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin-top: 3px;
+  margin-top: 0;
+  padding: 0;
+}
+
+// bootstrap overwrites
+
+.container {
+  margin-top: 2rem;
+}
+
+@include media-breakpoint-down(xs) {
+  .navbar-brand {
+    font-size: 1.1rem !important;
+  }
 }
 </style>
