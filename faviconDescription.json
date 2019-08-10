@@ -8,7 +8,7 @@
       "margin": "7%",
       "assets": {
         "ios6AndPriorIcons": false,
-        "ios7AndLaterIcons": false,
+        "ios7AndLaterIcons": true,
         "precomposedIcons": false,
         "declareOnlyDefaultIcon": true
       },
@@ -48,7 +48,7 @@
     },
     "safariPinnedTab": {
       "pictureAspect": "blackAndWhite",
-      "threshold": 0,
+      "threshold": 1,
       "themeColor": "#2c3e50"
     }
   },
