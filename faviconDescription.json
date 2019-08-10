@@ -1,6 +1,6 @@
 {
   "masterPicture": "etc/icon.svg",
-  "iconsPath": "",
+  "iconsPath": "img/icons",
   "design": {
     "ios": {
       "pictureAspect": "backgroundAndMargin",
@@ -48,7 +48,7 @@
     },
     "safariPinnedTab": {
       "pictureAspect": "blackAndWhite",
-      "threshold": 50,
+      "threshold": 0,
       "themeColor": "#2c3e50"
     }
   },

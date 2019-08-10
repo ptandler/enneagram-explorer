@@ -3,6 +3,8 @@
 const path = require("path")
 
 module.exports = {
+  publicPath: "", // use relative paths (CSS will be at root as well)
+  outputDir: "docs",
   configureWebpack: {
     resolve: {},
     devtool: "source-map",

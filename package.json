@@ -1,10 +1,29 @@
 {
   "name": "enneagram-explorer",
   "version": "0.1.0",
-  "private": true,
+  "description": "WebApp to help remembering different aspects of the Enneagram",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "vue.js",
+    "enneagram",
+    "enneagramm"
+  ],
+  "homepage": "https://github.com/ptandler/enneagram-explorer/",
+  "bugs": "https://github.com/ptandler/enneagram-explorer/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Peter Tandler",
+    "url": "https://github.com/ptandler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptandler/enneagram-explorer.git"
+  },
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --modern && browserlist > docs/supported-browsers.txt",
+    "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,webmanifest,md}",
     "prettier-watch": "onchange 'src/**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
