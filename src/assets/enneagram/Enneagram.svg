@@ -16,11 +16,11 @@
   <defs
      id="defs1">
     <linearGradient
-       id="orange_red_violet">
+       id="red">
       <stop
          id="stop1586"
          offset="0"
-         style="stop-color:#800080;stop-opacity:1" />
+         style="stop-color:#b00000;stop-opacity:1" />
       <stop
          style="stop-color:#ff0000;stop-opacity:1"
          offset="0.5"
@@ -28,14 +28,14 @@
       <stop
          id="stop1588"
          offset="1"
-         style="stop-color:#ff8000;stop-opacity:1" />
+         style="stop-color:#ff5151;stop-opacity:1" />
     </linearGradient>
     <linearGradient
-       id="violet_blue_green">
+       id="blue">
       <stop
          id="stop1576"
          offset="0"
-         style="stop-color:#800080;stop-opacity:1" />
+         style="stop-color:#5151ff;stop-opacity:1" />
       <stop
          style="stop-color:#0000ff;stop-opacity:1"
          offset="0.5"
@@ -43,14 +43,14 @@
       <stop
          id="stop1578"
          offset="1"
-         style="stop-color:#00ff00;stop-opacity:1" />
+         style="stop-color:#0000b0;stop-opacity:1" />
     </linearGradient>
     <linearGradient
-       id="green_yellow_orange">
+       id="yellow">
       <stop
          id="stop1111"
          offset="0"
-         style="stop-color:#00ff00;stop-opacity:1" />
+         style="stop-color:#ffff51;stop-opacity:1" />
       <stop
          style="stop-color:#ffff00;stop-opacity:1"
          offset="0.5"
@@ -58,7 +58,7 @@
       <stop
          id="stop1113"
          offset="1"
-         style="stop-color:#ff8000;stop-opacity:1" />
+         style="stop-color:#b1b100;stop-opacity:1" />
     </linearGradient>
     <marker
        orient="auto"
@@ -418,7 +418,7 @@ text {
        y1="199.70763"
        x1="115.16053"
        id="linearGradient1117"
-       xlink:href="#green_yellow_orange" />
+       xlink:href="#yellow" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
        y2="199.8112"
@@ -426,7 +426,7 @@ text {
        y1="63.489304"
        x1="35.401772"
        id="linearGradient1582"
-       xlink:href="#violet_blue_green" />
+       xlink:href="#blue" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
        y2="62.883926"
@@ -434,7 +434,7 @@ text {
        y1="62.883926"
        x1="35.414948"
        id="linearGradient1592"
-       xlink:href="#orange_red_violet" />
+       xlink:href="#red" />
   </defs>
   <metadata
      id="metadata1">
@@ -820,6 +820,7 @@ text {
     </g>
   </g>
   <g
+     style="display:inline"
      transform="translate(57.160477,43.960564)"
      id="dimensions">
     <g

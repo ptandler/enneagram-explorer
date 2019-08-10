@@ -27,10 +27,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="731.8636"
+     inkscape:cx="611.51489"
      inkscape:cy="576.01556"
      inkscape:document-units="mm"
-     inkscape:current-layer="centers"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:pagecheckerboard="false"
      fit-margin-top="5"
@@ -46,9 +46,9 @@
      id="defs1">
     <linearGradient
        inkscape:collect="always"
-       id="red">
+       id="orange_red_violet">
       <stop
-         style="stop-color:#b00000;stop-opacity:1"
+         style="stop-color:#800080;stop-opacity:1"
          offset="0"
          id="stop1586" />
       <stop
@@ -56,15 +56,15 @@
          offset="0.5"
          style="stop-color:#ff0000;stop-opacity:1" />
       <stop
-         style="stop-color:#ff5151;stop-opacity:1"
+         style="stop-color:#ff8000;stop-opacity:1"
          offset="1"
          id="stop1588" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="blue">
+       id="violet_blue_green">
       <stop
-         style="stop-color:#5151ff;stop-opacity:1"
+         style="stop-color:#800080;stop-opacity:1"
          offset="0"
          id="stop1576" />
       <stop
@@ -72,15 +72,15 @@
          offset="0.5"
          style="stop-color:#0000ff;stop-opacity:1" />
       <stop
-         style="stop-color:#0000b0;stop-opacity:1"
+         style="stop-color:#00ff00;stop-opacity:1"
          offset="1"
          id="stop1578" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="yellow">
+       id="green_yellow_orange">
       <stop
-         style="stop-color:#ffff51;stop-opacity:1"
+         style="stop-color:#00ff00;stop-opacity:1"
          offset="0"
          id="stop1111" />
       <stop
@@ -88,7 +88,7 @@
          offset="0.5"
          style="stop-color:#ffff00;stop-opacity:1" />
       <stop
-         style="stop-color:#b1b100;stop-opacity:1"
+         style="stop-color:#ff8000;stop-opacity:1"
          offset="1"
          id="stop1113" />
     </linearGradient>
@@ -539,7 +539,7 @@ text {
 ]]></style>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#yellow"
+       xlink:href="#green_yellow_orange"
        id="linearGradient1117"
        x1="115.16053"
        y1="199.70763"
@@ -548,7 +548,7 @@ text {
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#blue"
+       xlink:href="#violet_blue_green"
        id="linearGradient1582"
        x1="35.401772"
        y1="63.489304"
@@ -557,7 +557,7 @@ text {
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#red"
+       xlink:href="#orange_red_violet"
        id="linearGradient1592"
        x1="35.414948"
        y1="62.883926"
@@ -650,7 +650,8 @@ text {
      inkscape:label="drawing"
      id="drawing"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
        id="background"
@@ -1103,9 +1104,7 @@ text {
      inkscape:groupmode="layer"
      id="dimensions"
      inkscape:label="dimensions"
-     transform="translate(57.160477,43.960564)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(57.160477,43.960564)">
     <g
        inkscape:groupmode="layer"
        id="axes"
