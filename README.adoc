@@ -2,6 +2,9 @@
 :source-highlighter: highlightjs
 
 == Project setup
+
+I use yarn instead of npm in this project.
+
 ```
 yarn install
 ```
@@ -28,20 +31,7 @@ yarn run lint
 
 == ToDo Ideas
 
-* Add names by different authors
 * add i18n
-* add links to books and online references with details
-* add nice colors for each number
-  - define customcolors in bootstrap
-  - search for nice online tool to define matching color scheme -> https://mayvendev.com/blog/25-awesome-tools-for-choosing-a-website-color-scheme[25 Tools] e.g. http://www.colorexplorer.com/[ColorExplorer]
-
-	red #CC3333
-	dark #330D0D
-	light green #99CC33
-	dark green #26330D
-	light blue #3399CC
-	dark blue #0D2633
-
 
 == Update Enneagram.svg
 
