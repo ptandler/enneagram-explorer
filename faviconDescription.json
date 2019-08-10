@@ -47,14 +47,16 @@
       }
     },
     "safariPinnedTab": {
+      "masterPicture": "etc/icon-bw.svg",
       "pictureAspect": "blackAndWhite",
       "threshold": 1,
       "themeColor": "#2c3e50"
     }
   },
   "settings": {
+    "compression": 2,
     "scalingAlgorithm": "Mitchell",
-    "errorOnImageTooSmall": false,
+    "errorOnImageTooSmall": true,
     "usePathAsIs": false
   }
 }
