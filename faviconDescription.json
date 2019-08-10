@@ -1,0 +1,60 @@
+{
+  "masterPicture": "etc/icon.svg",
+  "iconsPath": "",
+  "design": {
+    "ios": {
+      "pictureAspect": "backgroundAndMargin",
+      "backgroundColor": "#2c3e50",
+      "margin": "14%",
+      "assets": {
+        "ios6AndPriorIcons": false,
+        "ios7AndLaterIcons": false,
+        "precomposedIcons": false,
+        "declareOnlyDefaultIcon": true
+      }
+    },
+    "desktopBrowser": {},
+    "windows": {
+      "pictureAspect": "noChange",
+      "backgroundColor": "#2c3e50",
+      "onConflict": "override",
+      "assets": {
+        "windows80Ie10Tile": false,
+        "windows10Ie11EdgeTiles": {
+          "small": false,
+          "medium": true,
+          "big": false,
+          "rectangle": false
+        }
+      }
+    },
+    "androidChrome": {
+      "pictureAspect": "backgroundAndMargin",
+      "margin": "17%",
+      "backgroundColor": "#2c3e50",
+      "themeColor": "#2c3e50",
+      "manifest": {
+        "display": "standalone",
+        "orientation": "notSet",
+        "onConflict": "override",
+        "declared": true
+      },
+      "assets": {
+        "legacyIcon": false,
+        "lowResolutionIcons": false
+      }
+    },
+    "safariPinnedTab": {
+      "pictureAspect": "blackAndWhite",
+      "threshold": 50,
+      "themeColor": "#2c3e50"
+    }
+  },
+  "settings": {
+    "scalingAlgorithm": "Mitchell",
+    "errorOnImageTooSmall": false,
+    "readmeFile": false,
+    "htmlCodeFile": false,
+    "usePathAsIs": false
+  }
+}
