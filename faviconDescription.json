@@ -5,13 +5,14 @@
     "ios": {
       "pictureAspect": "backgroundAndMargin",
       "backgroundColor": "#2c3e50",
-      "margin": "14%",
+      "margin": "7%",
       "assets": {
         "ios6AndPriorIcons": false,
         "ios7AndLaterIcons": false,
         "precomposedIcons": false,
         "declareOnlyDefaultIcon": true
-      }
+      },
+      "appName": "Enneagramm Explorer"
     },
     "desktopBrowser": {},
     "windows": {
@@ -19,28 +20,29 @@
       "backgroundColor": "#2c3e50",
       "onConflict": "override",
       "assets": {
-        "windows80Ie10Tile": false,
+        "windows80Ie10Tile": true,
         "windows10Ie11EdgeTiles": {
-          "small": false,
+          "small": true,
           "medium": true,
-          "big": false,
-          "rectangle": false
+          "big": true,
+          "rectangle": true
         }
-      }
+      },
+      "appName": "Enneagramm Explorer"
     },
     "androidChrome": {
-      "pictureAspect": "backgroundAndMargin",
-      "margin": "17%",
-      "backgroundColor": "#2c3e50",
+      "pictureAspect": "noChange",
       "themeColor": "#2c3e50",
       "manifest": {
+        "name": "Enneagramm Explorer",
+        "startUrl": "index.html",
         "display": "standalone",
         "orientation": "notSet",
         "onConflict": "override",
         "declared": true
       },
       "assets": {
-        "legacyIcon": false,
+        "legacyIcon": true,
         "lowResolutionIcons": false
       }
     },
@@ -53,8 +55,6 @@
   "settings": {
     "scalingAlgorithm": "Mitchell",
     "errorOnImageTooSmall": false,
-    "readmeFile": false,
-    "htmlCodeFile": false,
     "usePathAsIs": false
   }
 }

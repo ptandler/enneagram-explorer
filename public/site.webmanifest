@@ -1,7 +1,6 @@
 {
   "name": "Enneagramm Explorer",
-  "short_name": "enneagram-explorer",
-  "start_url": "./index.html",
+  "short_name": "Enneagramm Explorer",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -16,5 +15,6 @@
   ],
   "theme_color": "#2c3e50",
   "background_color": "#2c3e50",
+  "start_url": "index.html",
   "display": "standalone"
 }
