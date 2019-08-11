@@ -7,13 +7,13 @@
       hideCenters: !showCenters,
       showNumber1: showNumber(1),
       showNumber2: showNumber(2),
-      showNumber3: showNumber(2),
-      showNumber4: showNumber(2),
-      showNumber5: showNumber(2),
-      showNumber6: showNumber(2),
-      showNumber7: showNumber(2),
-      showNumber8: showNumber(2),
-      showNumber9: showNumber(2),
+      showNumber3: showNumber(3),
+      showNumber4: showNumber(4),
+      showNumber5: showNumber(5),
+      showNumber6: showNumber(6),
+      showNumber7: showNumber(7),
+      showNumber8: showNumber(8),
+      showNumber9: showNumber(9),
       showPlusMinus: showPlusMinus,
       hidePlusMinus: !showPlusMinus,
       showArrowsIntegration: showArrowsIntegration,
@@ -282,25 +282,25 @@ export default class Enneagram extends Vue {
 // rules to show / hide parts of the Enneagram.svg
 
 .showHelpers svg #layerHelpers {
-  display: block !important;
+  display: inline;
 }
 
 .hideHelpers svg #layerHelpers {
-  display: none !important;
+  display: none;
 }
 
 .showCenters svg #centers,
 .showCenters svg #plusMinus {
-  display: block !important;
+  display: inline;
 }
 
 .hideCenters svg #centers,
 .hideCenters svg #plusMinus {
-  display: none !important;
+  display: none;
 }
 
 .showArrowsIntegration svg #arrowsIntegration {
-  display: block;
+  display: inline;
 }
 
 .hideArrowsIntegration svg #arrowsIntegration {
@@ -308,7 +308,7 @@ export default class Enneagram extends Vue {
 }
 
 .showArrowsDisintegration svg #arrowsDisintegration {
-  display: block;
+  display: inline;
 }
 
 .hideArrowsDisintegration svg #arrowsDisintegration {
@@ -317,31 +317,33 @@ export default class Enneagram extends Vue {
 
 // generate rules to show only elements for seleted numbers
 
+// per default hide all number elements, unless shown (see below)
 @for $i from 1 through 9 {
-  // per default hide all arrows, unless shown
   svg .number#{$i} {
     display: none;
   }
+}
 
-  // show arrow of show numbers
+// then show elements of selected numbers
+@for $i from 1 through 9 {
   .showNumber#{$i} svg .number#{$i} {
     display: inline;
   }
 }
 
 .showAxes svg #axes {
-  display: block !important;
+  display: inline;
 }
 
 .hideAxes svg #axes {
-  display: none !important;
+  display: none;
 }
 
 .showSocialStyles svg #socialStyle {
-  display: block !important;
+  display: inline;
 }
 
 .hideSocialStyles svg #socialStyle {
-  display: none !important;
+  display: none;
 }
 </style>

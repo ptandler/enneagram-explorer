@@ -60,7 +60,7 @@ import { contents, emotions } from "@/data/contents"
 
 @Component
 export default class EnneaNumber extends Vue {
-  @Prop(String) protected readonly number: string | undefined
+  @Prop(Number) protected readonly number: number | undefined
   @Prop(Array) protected readonly showNames: string[] | undefined
   @Prop(Array) protected readonly showEmotions: string[] | undefined
   @Prop(Object) protected readonly showContents: any | undefined
