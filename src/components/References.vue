@@ -16,9 +16,13 @@
         ><span v-if="lit.ebook" class="ebook">(<b-link :href="lit.ebook" target="_blank">E-Book</b-link>) </span>
       </li>
     </ul>
+    <p>
+      W. Reifrath fand ich insbesondere als sehr hilfreich, da dort viele andere Quellen übersichtlich zusammengefasst
+      sind.
+    </p>
     <h5>Weitere Literatur</h5>
     <p>
-      Auf diese Bücher wird in den verwendeten Quellen verwiesen.
+      Auf diese Bücher wird in den verwendeten Quellen (vor allem bei Reifrath) verwiesen.
     </p>
     <ul>
       <li v-for="(lit, ref) in references" :key="ref" v-if="lit.citedBy">

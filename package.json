@@ -26,7 +26,7 @@
     "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,webmanifest,md}",
-    "prettier-watch": "onchange 'src/**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
+    "prettier-watch": "onchange '**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
     "favicon": "yarn favicon:generate && yarn favicon:inject",
     "favicon:generate": "npx real-favicon generate faviconDescription.json faviconData.json public/img/icons",
     "favicon:inject": "npx real-favicon inject faviconData.json public public/index.html && yarn prettier",
