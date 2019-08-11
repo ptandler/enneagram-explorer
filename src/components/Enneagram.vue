@@ -5,8 +5,15 @@
       hideHelpers: !showHelpers,
       showCenters: showCenters,
       hideCenters: !showCenters,
-      showNumbers: showNumbers,
-      hideNumbers: !showNumbers,
+      showNumber1: showNumber(1),
+      showNumber2: showNumber(2),
+      showNumber3: showNumber(2),
+      showNumber4: showNumber(2),
+      showNumber5: showNumber(2),
+      showNumber6: showNumber(2),
+      showNumber7: showNumber(2),
+      showNumber8: showNumber(2),
+      showNumber9: showNumber(2),
       showPlusMinus: showPlusMinus,
       hidePlusMinus: !showPlusMinus,
       showArrowsIntegration: showArrowsIntegration,
@@ -81,6 +88,11 @@
               {{ content.title }}
             </b-form-checkbox>
           </b-tab>
+          <b-tab title="Typen">
+            <b-form-checkbox v-for="i in 9" :id="'showNumber_' + i" :key="i" :value="i" v-model="showNumbers" inline>
+              Nr. {{ i }}
+            </b-form-checkbox>
+          </b-tab>
         </b-tabs>
       </b-card>
     </div>
@@ -96,76 +108,12 @@
               <EnneagramSvg />
             </div>
           </b-col>
-          <b-col cols="12" sm="6" lg="4">
+          <b-col cols="12" sm="6" lg="4" v-for="i in 9" :key="i" v-show="showNumber(i)">
             <EnneaNumber
               :show-emotions="showEmotions"
               :show-names="showNames"
               :show-contents="showContents"
-              number="1"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="2"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="3"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="4"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="5"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="6"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="7"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="8"
-            />
-          </b-col>
-          <b-col cols="12" sm="6" lg="4">
-            <EnneaNumber
-              :show-emotions="showEmotions"
-              :show-names="showNames"
-              :show-contents="showContents"
-              number="9"
+              :number="i"
             />
           </b-col>
         </b-row>
@@ -196,7 +144,7 @@ import CenterInfoModal from "@/components/CenterInfoModal.vue"
 export default class Enneagram extends Vue {
   public showHelpers = false
   public showCenters = true
-  public showNumbers = true
+  public showNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
   public showPlusMinus = true
   public showArrowsIntegration = false
   public showArrowsDisintegration = false
@@ -209,6 +157,8 @@ export default class Enneagram extends Vue {
   public useVerticalMenu = true
 
   public created() {
+    // adjust the orientation of the tab list, depending on device orientation
+
     // https://stackoverflow.com/a/11734939/1480587
     // https://davidwalsh.name/orientation-change
     const mql = window.matchMedia("(orientation: portrait)")
@@ -222,6 +172,10 @@ export default class Enneagram extends Vue {
       this.useVerticalMenu = mql.matches // true if orientation: portrait
       // console.log("useVerticalMenu:", this.useVerticalMenu, " --- ", this)
     })
+  }
+
+  public showNumber(n: number) {
+    return this.showNumbers.indexOf(n) >= 0
   }
 
   get showContents() {
@@ -346,19 +300,33 @@ export default class Enneagram extends Vue {
 }
 
 .showArrowsIntegration svg #arrowsIntegration {
-  display: block !important;
+  display: block;
 }
 
 .hideArrowsIntegration svg #arrowsIntegration {
-  display: none !important;
+  display: none;
 }
 
 .showArrowsDisintegration svg #arrowsDisintegration {
-  display: block !important;
+  display: block;
 }
 
 .hideArrowsDisintegration svg #arrowsDisintegration {
-  display: none !important;
+  display: none;
+}
+
+// generate rules to show only elements for seleted numbers
+
+@for $i from 1 through 9 {
+  // per default hide all arrows, unless shown
+  svg .number#{$i} {
+    display: none;
+  }
+
+  // show arrow of show numbers
+  .showNumber#{$i} svg .number#{$i} {
+    display: inline;
+  }
 }
 
 .showAxes svg #axes {
