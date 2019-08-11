@@ -141,7 +141,7 @@
       <path
          id="path5280"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill:#cccc0a;fill-opacity:0.80000006;fill-rule:evenodd;stroke:#cccc0a;stroke-width:1.00000003pt;stroke-opacity:0.8"
+         style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:1.00000003pt;stroke-opacity:0.8"
          transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
@@ -758,76 +758,94 @@ text {
       <path
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker1247)"
          d="M 115.0893,32.594403 49.035508,146.86466"
+         class="number6 number9"
          id="arrow96" />
       <path
+         class="number3 number6"
          id="arrow63"
          d="M 49.035509,146.86466 H 181.14307"
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker1646)" />
       <path
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker1874)"
          d="M 181.14307,146.86466 115.0893,32.594403"
+         class="number3 number9"
          id="arrow39" />
       <path
+         class="number1 number4"
          id="arrow14"
          d="M 164.17015,49.956891 140.76294,181.01509"
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker2102)" />
       <path
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker2336)"
          d="M 140.76294,181.01509 190.00663,95.612156"
+         class="number2 number4"
          id="arrow42" />
       <path
+         class="number2 number8"
          id="arrow28"
          d="M 190.00663,95.612156 66.369752,49.556013"
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker2552)" />
       <path
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker2810)"
          d="M 66.369752,49.556013 88.724812,180.4925"
+         class="number5 number8"
          id="arrow85" />
       <path
+         class="number5 number7"
          id="arrow57"
          d="M 88.724812,180.4925 40.167729,94.997976"
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker3050)" />
       <path
          style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.50006253;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-end:url(#marker3308)"
          d="M 40.167729,94.997976 164.17015,49.956891"
+         class="number1 number7"
          id="arrow71" />
     </g>
     <g
        style="display:inline"
        id="arrowsIntegration">
       <path
+         class="number6 number9"
          id="arrow69"
          d="M 115.0893,32.594403 49.035508,146.86466"
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker6224)" />
       <path
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#Arrow1Lstart)"
          d="M 49.035509,146.86466 H 181.14307"
+         class="number3 number6"
          id="arrow36" />
       <path
+         class="number3 number9"
          id="arrow93"
          d="M 181.14307,146.86466 115.0893,32.594403"
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker5146)" />
       <path
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker5282)"
          d="M 164.17015,49.956891 140.76294,181.01509"
+         class="number1 number4"
          id="arrow41" />
       <path
+         class="number2 number4"
          id="arrow24"
          d="M 140.76294,181.01509 190.00663,95.612156"
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker5424)" />
       <path
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker5572)"
          d="M 190.00663,95.612156 66.369752,49.556013"
+         class="number2 number8"
          id="arrow82" />
       <path
+         class="number5 number8"
          id="arrow58"
          d="M 66.369752,49.556013 88.724812,180.4925"
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker5726)" />
       <path
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker5886)"
          d="M 88.724812,180.4925 40.167729,94.997976"
+         class="number5 number7"
          id="arrow75" />
       <path
+         class="number1 number7"
          id="arrow17"
          d="M 40.167729,94.997976 164.17015,49.956891"
          style="fill:#cccc0a;fill-opacity:1;fill-rule:evenodd;stroke:#cccc0a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8;marker-start:url(#marker6052)" />
@@ -847,8 +865,9 @@ text {
            style="display:inline"
            id="diagonalAxesLabels">
           <text
+             class="number4 number8"
              transform="rotate(61.736502)"
-             id="text5187"
+             id="labelAxisChaos"
              y="-27.760786"
              x="19.480047"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -857,6 +876,7 @@ text {
                x="19.480047"
                id="tspan5199">Chaos-Achse</tspan></text>
           <text
+             class="number1 number5"
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              x="85.075745"
@@ -867,6 +887,7 @@ text {
                x="85.075745"
                id="tspan5201">Ordnungs-Achse</tspan></text>
           <text
+             class="number3 number8"
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              x="9.9773397"
@@ -877,6 +898,7 @@ text {
                x="9.9773388"
                id="tspan5215">Durchsetzungs-Achse</tspan></text>
           <text
+             class="number1 number6"
              transform="rotate(-42.153022)"
              id="text5228"
              y="129.59225"
@@ -887,6 +909,7 @@ text {
                x="130.47441"
                id="tspan5230">Pflicht-Achse</tspan></text>
           <text
+             class="number4 number9"
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              x="3.3200502"
@@ -900,6 +923,7 @@ text {
                x="3.32005"
                id="tspan5258">Tendenz</tspan></text>
           <text
+             class="number5 number9"
              transform="rotate(-81.927436)"
              id="text5250"
              y="109.42595"
@@ -914,26 +938,32 @@ text {
                id="tspan5262">Tendenz</tspan></text>
         </g>
         <path
+           class="number4 number8"
            style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999997, 0.49999998;stroke-dashoffset:0;stroke-opacity:1"
            d="M 17.90234,-20.20563 149.62206,217.26222"
            id="path5183" />
         <path
+           class="number1 number5"
            id="path5197"
            d="M 187.96853,-27.31622 49.596409,217.26344"
            style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999997, 0.49999997;stroke-dashoffset:0;stroke-opacity:1" />
         <path
+           class="number1 number6"
            style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999991, 0.49999995;stroke-dashoffset:0;stroke-opacity:1"
            d="M 204.63712,-5.9760629 -6.515346,172.72429"
            id="path5207" />
         <path
+           class="number3 number8"
            id="path5209"
            d="M -6.515346,-7.8469496 204.63712,170.8534"
            style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999991, 0.49999995;stroke-dashoffset:0;stroke-opacity:1" />
         <path
+           class="number4 number9"
            id="path5232"
            d="M 89.950767,-38.170799 133.35212,221.38282"
            style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999995, 0.49999996;stroke-dashoffset:0;stroke-opacity:1" />
         <path
+           class="number5 number9"
            style="display:inline;fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999996, 0.49999997;stroke-dashoffset:0;stroke-opacity:1"
            d="M 110.42215,-38.919332 66.895122,221.383"
            id="path5234" />
@@ -942,24 +972,29 @@ text {
          style="display:inline"
          id="horizontalAxes">
         <path
+           class="number1 number8"
            id="path5130"
            d="M -11.353482,40.45777 H 259.52532"
            style="fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999998, 0.49999999;stroke-dashoffset:0;stroke-opacity:1" />
         <path
+           class="number2 number7"
            style="fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999998, 0.49999999;stroke-dashoffset:0;stroke-opacity:1"
            d="M -11.353482,86.49527 H 259.52532"
            id="path5132" />
         <path
+           class="number3 number6"
            id="path5134"
            d="M -11.353482,137.82444 H 259.52532"
            style="fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999998, 0.49999999;stroke-dashoffset:0;stroke-opacity:1" />
         <path
+           class="number4 number5"
            style="fill:none;fill-rule:evenodd;stroke:#aaaaaa;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.49999998, 0.49999999;stroke-dashoffset:0;stroke-opacity:1"
            d="M -11.353482,172.74944 H 259.52532"
            id="path5136" />
         <g
            id="horizontalAxesLabels">
           <text
+             class="number1 number8"
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              x="255.47433"
@@ -970,6 +1005,7 @@ text {
                y="38.033665"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:end;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">Handlungs-Achse</tspan></text>
           <text
+             class="number2 number7"
              id="text5144"
              y="84.071167"
              x="224.25487"
@@ -980,6 +1016,7 @@ text {
                x="224.25487"
                id="tspan5142">Mitteilungs-Achse</tspan></text>
           <text
+             class="number3 number6"
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="228.57501"
@@ -990,6 +1027,7 @@ text {
                y="134.60658"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px">Vorzeige-Achse</tspan></text>
           <text
+             class="number4 number5"
              id="text5172"
              y="169.267"
              x="218.77028"
@@ -1006,22 +1044,26 @@ text {
        style="display:inline"
        id="socialStyle">
       <path
+         class="number4 number5 number9"
          id="social459"
          d="m 100.00001,25.81688 c 8.24024,48.998037 16.4805,97.99608 24.72074,146.99413 -16.4805,0 -32.960989,0 -49.441488,0 8.24025,-48.99805 16.4805,-97.996093 24.720748,-146.99413 z"
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#aaaaaa;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.3, 1.3;stroke-dashoffset:0;stroke-opacity:1" />
       <path
+         class="number3 number7 number8"
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#aaaaaa;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.3, 1.3;stroke-dashoffset:0;stroke-opacity:1"
          d="M 163.82642,136.57059 C 117.3004,119.13388 70.774371,101.69719 24.248342,84.26047 32.51126,70.001049 40.774173,55.741639 49.03709,41.482219 87.300206,73.178348 125.56332,104.87447 163.82642,136.57059 Z"
          id="social126" />
       <path
+         class="number1 number2 number6"
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#aaaaaa;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.3, 1.3;stroke-dashoffset:0;stroke-opacity:1"
          d="M 36.354588,136.8812 C 74.462777,104.99899 112.57096,73.116762 150.67916,41.234548 159.01147,55.453531 167.34378,69.672505 175.67609,83.891486 129.23558,101.55473 82.795082,119.21796 36.354588,136.8812 Z"
          id="social378" />
       <g
          style="display:inline"
-         id="layer3">
+         id="socialStyleLabels">
         <text
-           id="number2-0"
+           class="number1 number2 number6"
+           id="socialLabel126"
            y="55.046776"
            x="182.11703"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1031,17 +1073,19 @@ text {
              x="182.11703"
              id="tspan840-3">Die Entgegenkommenden</tspan></text>
         <text
+           class="number4 number5 number9"
            xml:space="preserve"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="101.21552"
            y="200.26086"
-           id="text5121"><tspan
+           id="socialLabel459"><tspan
              id="tspan5119"
              x="101.21552"
              y="200.26086"
              style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332px">Die Zurückhaltenden</tspan></text>
         <text
-           id="text5125"
+           class="number3 number7 number8"
+           id="socialLabel378"
            y="55.420952"
            x="17.668161"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
