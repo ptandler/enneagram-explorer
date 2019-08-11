@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.221b74ac971da100f06bd2d66588884c.js"
+  "precache-manifest.881e4fb326ea1bbbfa8a026e6f1d25aa.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "enneagram-explorer"});
