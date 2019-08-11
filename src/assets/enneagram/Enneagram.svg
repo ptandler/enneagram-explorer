@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg8"
    version="1.1"
-   viewBox="0 0 335.87227 270.3848"
-   height="270.3848mm"
-   width="335.87225mm">
+   viewBox="0 0 357.18572 271.41428"
+   height="271.41428mm"
+   width="357.1857mm">
   <title
      id="title">Enneagram</title>
   <defs
@@ -413,10 +413,10 @@ text {
 ]]></style>
     <linearGradient
        gradientUnits="userSpaceOnUse"
-       y2="62.883923"
-       x2="194.76363"
-       y1="199.70763"
-       x1="115.16053"
+       y2="63.489304"
+       x2="194.15987"
+       y1="200.88393"
+       x1="115.08929"
        id="linearGradient1117"
        xlink:href="#yellow" />
     <linearGradient
@@ -475,7 +475,7 @@ text {
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(57.160477,43.960564)"
+     transform="translate(78.461479,44.990032)"
      style="display:none"
      id="helpers">
     <path
@@ -491,11 +491,25 @@ text {
        d="m 100.25458,26.191345 48.82047,17.993753 25.83249,45.165207 -9.2428,51.203365 -39.99329,33.28289 -52.030458,-0.21102 -39.72201,-33.60618 -8.827188,-51.27664 26.197972,-44.954195 z"
        id="helperCorners"
        style="opacity:0.97999998;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.29064545px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="-39.990028"
+       x="99.944275"
+       height="4.3920698"
+       width="178.77994"
+       id="rect1177"
+       style="display:inline;opacity:1;vector-effect:none;fill:#ff5151;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="display:inline;opacity:1;vector-effect:none;fill:#ff5151;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1179"
+       width="178.40576"
+       height="4.3920698"
+       x="-78.461479"
+       y="-39.990028" />
   </g>
   <g
      style="display:inline"
      id="drawing"
-     transform="translate(42.07119,35.076635)">
+     transform="translate(63.372192,36.106103)">
     <g
        style="display:inline"
        transform="translate(15.089287,8.8839268)"
@@ -821,7 +835,7 @@ text {
   </g>
   <g
      style="display:inline"
-     transform="translate(57.160477,43.960564)"
+     transform="translate(78.461479,44.990032)"
      id="dimensions">
     <g
        style="display:inline"
