@@ -1,0 +1,7 @@
+{
+  "appId": "io.github.ptandler.enneagram.explorer",
+  "appName": "Enneagramm Explorer",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "docs"
+}
