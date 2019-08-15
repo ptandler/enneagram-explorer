@@ -23,7 +23,7 @@
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt",
+    "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt && npx cap copy",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,webmanifest,md}",
     "prettier-watch": "onchange '**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
@@ -33,6 +33,9 @@
     "favicon:update": "npx real-favicon check-for-update --fail-on-update faviconData.json"
   },
   "dependencies": {
+    "@capacitor/android": "^1.1.1",
+    "@capacitor/cli": "^1.1.1",
+    "@capacitor/core": "^1.1.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/vue-fontawesome": "^0.1.6",

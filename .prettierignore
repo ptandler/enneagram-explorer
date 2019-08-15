@@ -8,3 +8,7 @@ node_modules
 # generated files
 /faviconData.json
 /docs
+
+# for now
+/android
+/electron
