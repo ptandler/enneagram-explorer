@@ -5,7 +5,7 @@ The Enneagram Explorer is a WebApp to quickly look up some of the most important
 
 Currently, it's only in German available.
 
-You can see a live demo at https://ptandler.github.io/enneagram-explorer/#/
+You can see a live demo at https://ptandler.github.io/enneagram-explorer/
 
 == Project setup
 
