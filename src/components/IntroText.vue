@@ -5,7 +5,7 @@
       <EnneagramSvg />
     </div>
     <p>
-      Um dich näher mit dem Enneagramm zu beschäftigen, kannst Du bestimmte Elemente in der Grafik und Beschriftung über
+      Um Dich näher mit dem Enneagramm zu beschäftigen, kannst Du bestimmte Elemente in der Grafik und Beschriftung über
       die Schaltflächten in diesem Menü ein- bzw. ausblenden.
     </p>
     <p>
@@ -20,15 +20,29 @@
     <p>
       <b-button to="/enneagram">Weiter zum Enneagramm</b-button>
     </p>
+    <p>
+      Über Feedback, Vorschläge, Fehlerhinweise und Anregungen freue ich mich auf der
+      <b-link href="https://github.com/ptandler/enneagram-explorer/issues" target="_blank">GitHub Seite</b-link>.
+    </p>
+    <p>
+      <small
+        >Wer mithelfen möchte, die App weiterzuentwickeln: Die Sourcen stehen ebenfalls auf
+        <b-link href="https://github.com/ptandler/enneagram-explorer/" target="_blank">GitHub</b-link> und Beiträge sind
+        herzlich willkommen.</small
+      >
+    </p>
+    <app-footer />
   </b-container>
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"
 import EnneagramSvg from "../assets/enneagram/Enneagram.svg"
+import AppFooter from "./AppFooter.vue"
 
 @Component({
   components: {
     EnneagramSvg,
+    AppFooter,
   },
 })
 export default class IntroText extends Vue {}

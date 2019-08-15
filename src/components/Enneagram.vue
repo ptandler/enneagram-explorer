@@ -126,12 +126,12 @@
 import { Vue, Component } from "vue-property-decorator"
 import EnneagramSvg from "../assets/enneagram/Enneagram.svg"
 import EnneaNumber from "./EnneaNumber.vue"
+import Ref from "./Ref.vue"
+import CenterInfoModal from "./CenterInfoModal.vue"
 import names from "@/data/names"
 import references from "@/data/references"
 import { contents, emotions } from "@/data/contents"
 import { centerIds } from "@/data/centers"
-import Ref from "@/components/Ref.vue"
-import CenterInfoModal from "@/components/CenterInfoModal.vue"
 
 @Component({
   components: {

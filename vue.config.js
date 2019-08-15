@@ -6,7 +6,11 @@ module.exports = {
   publicPath: "", // use relative paths (CSS will be at root as well)
   outputDir: "docs",
   configureWebpack: {
-    resolve: {},
+    resolve: {
+      alias: {
+        "package.json": path.resolve(__dirname, "package.json"),
+      },
+    },
     devtool: "source-map",
   },
   chainWebpack: (config) => {
