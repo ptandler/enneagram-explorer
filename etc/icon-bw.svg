@@ -1,307 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="200mm"
-   height="200mm"
-   viewBox="0 0 200 200"
-   version="1.1"
-   id="svg8"
-   sodipodi:docname="icon-bw.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
-  <title
-     id="title">Enneagram</title>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="130.96725"
-     inkscape:cy="368.89735"
-     inkscape:document-units="mm"
-     inkscape:current-layer="drawing"
-     showgrid="false"
-     inkscape:pagecheckerboard="false"
-     fit-margin-top="5"
-     fit-margin-left="5"
-     fit-margin-right="5"
-     fit-margin-bottom="5"
-     inkscape:window-width="1801"
-     inkscape:window-height="1057"
-     inkscape:window-x="111"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <defs
-     id="defs1">
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker6224"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path6222" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker6052"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path6050" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker5886"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5884" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker5726"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5724" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker5572"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5570" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker5424"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5422" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker5282"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:0.80000006"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5280" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker5146"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lstart">
-      <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#cccc0a;stroke-width:1pt;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:1"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5144" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible;"
-       id="marker4864"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend">
-      <path
-         transform="scale(1.1) rotate(180) translate(1,0)"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccc0a;stroke-opacity:0.8;fill:#cccc0a;fill-opacity:0.80000006"
-         id="path4862" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="marker4746"
-       style="overflow:visible;"
-       inkscape:isstock="true">
-      <path
-         id="path4744"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible;"
-       id="marker4634"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend">
-      <path
-         transform="scale(1.1) rotate(180) translate(1,0)"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         id="path4632" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="marker4528"
-       style="overflow:visible;"
-       inkscape:isstock="true">
-      <path
-         id="path4526"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible;"
-       id="marker4428"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend">
-      <path
-         transform="scale(1.1) rotate(180) translate(1,0)"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         id="path4426" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="marker4334"
-       style="overflow:visible;"
-       inkscape:isstock="true">
-      <path
-         id="path4332"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible;"
-       id="marker4246"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend">
-      <path
-         transform="scale(1.1) rotate(180) translate(1,0)"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         id="path4244" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="marker4164"
-       style="overflow:visible;"
-       inkscape:isstock="true">
-      <path
-         id="path4162"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible;"
-       id="marker4064"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend">
-      <path
-         transform="scale(1.1) rotate(180) translate(1,0)"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#cccccc;stroke-opacity:0.8;fill:#cccccc;fill-opacity:0.8"
-         id="path4062" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow2Lend"
-       style="overflow:visible;"
-       inkscape:isstock="true">
-      <path
-         id="path918"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
-    <style
-       type="text/css"
-       id="styleGeneral"><![CDATA[
+<svg version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<title id="title">Enneagram</title>
+	<defs>
+		<style id="styleGeneral" type="text/css"><![CDATA[
 polyline, line, circle, path {
 	fill:none;
 	stroke: black;
-	stroke-width: 2;
+	stroke-width: 6;
 }
 text {
 	font-size: 18pt;
@@ -310,78 +16,44 @@ text {
 	fill: black;
 }
 ]]></style>
-  </defs>
-  <metadata
-     id="metadata1">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Enneagram</dc:title>
-        <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>https://github.com/ptandler</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:date>2019-06-02</dc:date>
-        <dc:source>https://gist.github.com/ptandler/5b676312b58242c801ac1cdabce07902</dc:source>
-        <dc:description>Enneagram of Personality</dc:description>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>personality</rdf:li>
-            <rdf:li>typology</rdf:li>
-            <rdf:li>psychology</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(-15.089287,-8.8839268)"
-     inkscape:label="drawing"
-     id="drawing"
-     inkscape:groupmode="layer"
-     style="display:inline">
-    <g
-       inkscape:groupmode="layer"
-       id="enneagram"
-       inkscape:label="enneagram"
-       style="display:inline">
-      <circle
-         id="circle"
-         cx="115.08929"
-         cy="108.88393"
-         r="77.508163"
-         inkscape:label="circle"
-         style="fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
-         sodipodi:insensitive="true" />
-      <path
-         id="triangle"
-         inkscape:label="triangle"
-         d="M 49.035509,146.86466 H 181.14307 L 115.0893,32.594403 Z"
-         inkscape:connector-curvature="0"
-         style="display:inline;fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
-         sodipodi:insensitive="true" />
-      <path
-         d="M 164.17015,49.956891 140.76294,181.01509 190.00663,95.612156 66.369752,49.556013 88.724432,180.8018 40.167729,94.997976 Z"
-         id="pentagon"
-         inkscape:connector-curvature="0"
-         inkscape:label="pentagon"
-         style="display:inline;fill:none;stroke:#000000;stroke-width:2.11666656;stroke-miterlimit:4;stroke-dasharray:none"
-         sodipodi:insensitive="true" />
-    </g>
-  </g>
+	</defs>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title>Enneagram</dc:title>
+				<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>https://github.com/ptandler</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<dc:date>2019-06-02</dc:date>
+				<dc:source>https://gist.github.com/ptandler/5b676312b58242c801ac1cdabce07902</dc:source>
+				<dc:description>Enneagram of Personality</dc:description>
+				<dc:subject>
+					<rdf:Bag>
+						<rdf:li>personality</rdf:li>
+						<rdf:li>typology</rdf:li>
+						<rdf:li>psychology</rdf:li>
+					</rdf:Bag>
+				</dc:subject>
+			</cc:Work>
+			<cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+				<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+			</cc:License>
+		</rdf:RDF>
+	</metadata>
+	<g id="drawing" transform="translate(-15.1 -253)">
+		<g transform="matrix(2.09 0 0 2.09 30.9 282)" stroke-width=".479">
+			<g id="enneagram" fill="none" stroke="#000" stroke-width="5">
+				<circle id="circle" cx="115" cy="109" r="80"/>
+				<path id="triangle" d="m49 149h132l-66.1-114z"/>
+				<path id="pentagon" d="m164 51.9-23.4 131 49.2-85.4-124-46.1 22.4 131-48.6-85.8z"/>
+			</g>
+		</g>
+	</g>
 </svg>
