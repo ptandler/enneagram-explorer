@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="launch_splash">@mipmap/ic_launcher</drawable>
+</resources>

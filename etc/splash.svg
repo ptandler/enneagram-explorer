@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2208"
+   height="2208"
+   viewBox="0 0 2208 2208"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="splash.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="C:\usr\src\enneagram-explorer\etc\icon.svg.png"
+   inkscape:export-xdpi="384"
+   inkscape:export-ydpi="384">
+  <title
+     id="title">Enneagram</title>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#66ef66"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25"
+     inkscape:cx="1295.2749"
+     inkscape:cy="754.56363"
+     inkscape:document-units="px"
+     inkscape:current-layer="drawing"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1801"
+     inkscape:window-height="1057"
+     inkscape:window-x="111"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     units="px"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     borderlayer="true" />
+  <defs
+     id="defs1">
+    <linearGradient
+       inkscape:collect="always"
+       id="red">
+      <stop
+         style="stop-color:#b00000;stop-opacity:1"
+         offset="0"
+         id="stop1586" />
+      <stop
+         id="stop1594"
+         offset="0.5"
+         style="stop-color:#ff0000;stop-opacity:1" />
+      <stop
+         style="stop-color:#ff5151;stop-opacity:1"
+         offset="1"
+         id="stop1588" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="blue">
+      <stop
+         style="stop-color:#5151ff;stop-opacity:1"
+         offset="0"
+         id="stop1576" />
+      <stop
+         id="stop1584"
+         offset="0.5"
+         style="stop-color:#0000ff;stop-opacity:1" />
+      <stop
+         style="stop-color:#0000b0;stop-opacity:1"
+         offset="1"
+         id="stop1578" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="yellow">
+      <stop
+         style="stop-color:#ffff51;stop-opacity:1"
+         offset="0"
+         id="stop1111" />
+      <stop
+         id="stop1574"
+         offset="0.5"
+         style="stop-color:#ffff00;stop-opacity:1" />
+      <stop
+         style="stop-color:#b1b100;stop-opacity:1"
+         offset="1"
+         id="stop1113" />
+    </linearGradient>
+    <style
+       type="text/css"
+       id="styleGeneral"><![CDATA[
+polyline, line, circle, path {
+	fill:none;
+	stroke: black;
+	stroke-width: 5;
+	stroke-miterlimit: 4;
+	stroke-dasharray:none;
+}
+text {
+	font-size: 18pt;
+	text-anchor: middle;
+	font-family: serif;
+	fill: black;
+}
+]]></style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#yellow"
+       id="linearGradient1117"
+       x1="115.16053"
+       y1="199.70763"
+       x2="194.76363"
+       y2="62.883923"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#blue"
+       id="linearGradient1582"
+       x1="35.401772"
+       y1="63.489304"
+       x2="114.78073"
+       y2="199.8112"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#red"
+       id="linearGradient1592"
+       x1="35.414948"
+       y1="62.883926"
+       x2="194.76363"
+       y2="62.883926"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Enneagram</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>https://github.com/ptandler</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2019-06-02</dc:date>
+        <dc:source>https://gist.github.com/ptandler/5b676312b58242c801ac1cdabce07902</dc:source>
+        <dc:description>Enneagram of Personality</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>personality</rdf:li>
+            <rdf:li>typology</rdf:li>
+            <rdf:li>psychology</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="opacity:1;vector-effect:none;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect841"
+     width="2208"
+     height="2208"
+     x="0"
+     y="0" />
+  <g
+     transform="translate(720.91071,483.21056)"
+     inkscape:label="drawing"
+     id="drawing"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <g
+       id="g1529"
+       transform="matrix(2.0869565,0,0,2.0869565,142.90295,393.55342)"
+       style="stroke-width:0.47916666">
+      <g
+         inkscape:label="centers"
+         style="display:inline;stroke-width:0.47916666"
+         id="centers">
+        <path
+           d="m 194.76362,62.883924 a 92,92 0 0 1 1e-5,91.999996 92,92 0 0 1 -79.67434,46.00001 l 0,-92 z"
+           sodipodi:end="1.5707963"
+           sodipodi:start="5.7595865"
+           sodipodi:ry="92"
+           sodipodi:rx="92"
+           sodipodi:cy="108.88393"
+           sodipodi:cx="115.08929"
+           sodipodi:type="arc"
+           inkscape:connector-curvature="0"
+           id="centerHeart"
+           inkscape:label="centerHeart"
+           style="fill:url(#linearGradient1117);fill-opacity:1;stroke:none;stroke-width:0.95833331;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           d="m 115.08929,200.88393 a 92,92 0 0 1 -79.674339,-46 92,92 0 0 1 -3e-6,-92.000001 l 79.674342,46.000001 z"
+           sodipodi:end="3.6651914"
+           sodipodi:start="1.5707963"
+           sodipodi:ry="92"
+           sodipodi:rx="92"
+           sodipodi:cy="108.88393"
+           sodipodi:cx="115.08929"
+           sodipodi:type="arc"
+           style="fill:url(#linearGradient1582);fill-opacity:1;stroke:none;stroke-width:0.95833331;stroke-miterlimit:4;stroke-dasharray:none"
+           inkscape:label="centerHead"
+           id="centerHead"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:url(#linearGradient1592);fill-opacity:1;stroke:none;stroke-width:0.95833331;stroke-miterlimit:4;stroke-dasharray:none"
+           inkscape:label="centerGut"
+           id="centerGut"
+           inkscape:connector-curvature="0"
+           sodipodi:type="arc"
+           sodipodi:cx="115.08929"
+           sodipodi:cy="108.88393"
+           sodipodi:rx="92"
+           sodipodi:ry="92"
+           sodipodi:start="3.6651914"
+           sodipodi:end="5.7595865"
+           d="M 35.414948,62.883929 A 92,92 0 0 1 115.08928,16.883926 92,92 0 0 1 194.76362,62.883924 L 115.08929,108.88393 Z" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.25355905;stroke-miterlimit:4;stroke-dasharray:none"
+           d="m 114.78073,108.66593 v 91.14527 l 0.3798,-0.10357"
+           id="centerLineHeadHeart"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.25355905;stroke-miterlimit:4;stroke-dasharray:none"
+           d="M 114.78082,108.65785 194.15987,63.489304 V 63.222032"
+           id="centerLineHeartGut"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="centerLineGutHead"
+           d="M 114.78082,108.65785 35.414948,63.153187 v -0.269261"
+           style="fill:none;stroke:#000000;stroke-width:0.25355905;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+      <g
+         style="display:inline;stroke-width:0.47916666"
+         inkscape:label="enneagram"
+         id="enneagram">
+        <circle
+           sodipodi:insensitive="true"
+           inkscape:label="circle"
+           cy="108.88393"
+           cx="115.08929"
+           id="circle"
+           r="80.00602"
+           style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           sodipodi:insensitive="true"
+           inkscape:connector-curvature="0"
+           d="M 49.035509,148.78132 H 181.14307 L 115.0893,34.511069 Z"
+           inkscape:label="triangle"
+           id="triangle"
+           style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none" />
+        <path
+           sodipodi:insensitive="true"
+           inkscape:label="pentagon"
+           inkscape:connector-curvature="0"
+           id="pentagon"
+           d="M 164.17015,51.873557 140.76294,182.93175 190.00663,97.528822 66.369752,51.472679 88.724432,182.71846 40.167729,96.914642 Z"
+           style="fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+    </g>
+  </g>
+</svg>
