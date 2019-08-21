@@ -1,5 +1,5 @@
 <template>
-  <footer class="small container fixed-bottom footer text-center">v{{ version }}</footer>
+  <footer class="small container footer text-center">v{{ version }}</footer>
 </template>
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator"

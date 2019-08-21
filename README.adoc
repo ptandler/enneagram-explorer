@@ -3,7 +3,7 @@
 
 The Enneagram Explorer is a WebApp to quickly look up some of the most important aspects of the Enneagram. You can use it when you've just got your mobile at hand but not all your great books.
 
-Currently, it's only in German available.
+Currently, it's only in German available. Translations and help with including some i18n tool are warmly appreciated. :-)
 
 You can see a live demo at https://ptandler.github.io/enneagram-explorer/
 
