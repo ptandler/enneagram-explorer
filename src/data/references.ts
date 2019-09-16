@@ -11,18 +11,6 @@ export interface Reference {
 }
 
 export default {
-  parkin: {
-    author: "OM C. Parkin",
-    title: "Intelligenz des Erwachens",
-    year: 2011,
-    src: "https://www.buch7.de/store/product_details/108872773",
-    ISBN: "978-3936718195",
-  },
-  enneallionce: {
-    author: "Enneallionce",
-    title: "Schule für Innere Arbeit",
-    src: "http://enneallionce.de",
-  },
   reifarth: {
     author: "W. Reifarth",
     title: "Das Enneagramm - Idee, Dynamik, Dimensionen",
@@ -37,6 +25,18 @@ export default {
     src: "https://www.buch7.de/store/product_details/101950272",
     ebook: "https://www.buch7.de/store/product_details/1022975110",
     ISBN: "978-3442162871",
+  },
+  parkin: {
+    author: "OM C. Parkin",
+    title: "Intelligenz des Erwachens",
+    year: 2011,
+    src: "https://www.buch7.de/store/product_details/108872773",
+    ISBN: "978-3936718195",
+  },
+  enneallionce: {
+    author: "Enneallionce",
+    title: "Schule für Innere Arbeit",
+    src: "http://enneallionce.de",
   },
   riso: {
     author: "Don Richard Riso",
