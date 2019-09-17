@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container v-hammer:swipe.right="onSwipeRight">
     <h5>Quellen</h5>
     <p>
       Die Informationen in der Darstellung stammen im wesentlichen aus diesen Quellen:
@@ -46,6 +46,10 @@ import references from "@/data/references"
 
 @Component
 export default class References extends Vue {
+  public onSwipeRight() {
+    this.$router.push("/enneagram")
+  }
+
   // getters needed to make imported data available to template
 
   // noinspection JSMethodCanBeStatic

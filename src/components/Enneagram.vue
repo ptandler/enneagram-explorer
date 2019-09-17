@@ -70,7 +70,7 @@
         </b-tabs>
       </b-card>
     </div>
-    <div class="content">
+    <div class="content" v-hammer:swipe.left.right="onSwipe">
       <b-card no-body>
         <!-- information about the 3 centers -->
         <CenterInfoModal v-for="centerId in centerIds" :key="centerId" :centerId="centerId" />
@@ -186,6 +186,14 @@ export default class Enneagram extends Vue {
       }
     }
     return cssClasses
+  }
+
+  protected onSwipe(event: any) {
+    if (event.type === "swipeleft") {
+      this.$router.push("/references")
+    } else {
+      this.$router.push("/")
+    }
   }
 
   // getters needed to make imported data available to template

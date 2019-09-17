@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container v-hammer:swipe.left="onSwipeLeft">
     <div class="info-content">
       <h5>Erkunde das Enneagramm!</h5>
       <div class="bg-enneagram">
@@ -50,7 +50,11 @@ import AppFooter from "./AppFooter.vue"
     AppFooter,
   },
 })
-export default class IntroText extends Vue {}
+export default class IntroText extends Vue {
+  public onSwipeLeft() {
+    this.$router.push("/enneagram")
+  }
+}
 </script>
 <style lang="scss">
 // rules to show / hide parts of the Enneagram.svg
