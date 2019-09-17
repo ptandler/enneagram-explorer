@@ -1,31 +1,5 @@
 <template>
-  <div
-    :class="{
-      showHelpers: showHelpers,
-      hideHelpers: !showHelpers,
-      showCenters: showCenters,
-      hideCenters: !showCenters,
-      showNumber1: showNumber(1),
-      showNumber2: showNumber(2),
-      showNumber3: showNumber(3),
-      showNumber4: showNumber(4),
-      showNumber5: showNumber(5),
-      showNumber6: showNumber(6),
-      showNumber7: showNumber(7),
-      showNumber8: showNumber(8),
-      showNumber9: showNumber(9),
-      showPlusMinus: showPlusMinus,
-      hidePlusMinus: !showPlusMinus,
-      showArrowsIntegration: showArrowsIntegration,
-      hideArrowsIntegration: !showArrowsIntegration,
-      showArrowsDisintegration: showArrowsDisintegration,
-      hideArrowsDisintegration: !showArrowsDisintegration,
-      showAxes: showAxes,
-      hideAxes: !showAxes,
-      showSocialStyles: showSocialStyles,
-      hideSocialStyles: !showSocialStyles,
-    }"
-  >
+  <div :class="activatedCssClasses()">
     <div class="tabs-container">
       <b-card no-body>
         <b-tabs v-model="tabIndex" pills fill card :vertical="useVerticalMenu" nav-class="tab-list">
@@ -187,6 +161,31 @@ export default class Enneagram extends Vue {
       combinedContents[key] = true
     }
     return combinedContents
+  }
+
+  protected activatedCssClasses() {
+    const cssClasses: any = {
+      showHelpers: this.showHelpers,
+      hideHelpers: !this.showHelpers,
+      showCenters: this.showCenters,
+      hideCenters: !this.showCenters,
+      showPlusMinus: this.showPlusMinus,
+      hidePlusMinus: !this.showPlusMinus,
+      showArrowsIntegration: this.showArrowsIntegration,
+      hideArrowsIntegration: !this.showArrowsIntegration,
+      showArrowsDisintegration: this.showArrowsDisintegration,
+      hideArrowsDisintegration: !this.showArrowsDisintegration,
+      showAxes: this.showAxes,
+      hideAxes: !this.showAxes,
+      showSocialStyles: this.showSocialStyles,
+      hideSocialStyles: !this.showSocialStyles,
+    }
+    for (let i = 1; i <= 9; i++) {
+      if (this.showNumber(1)) {
+        cssClasses["showNumber" + i] = true
+      }
+    }
+    return cssClasses
   }
 
   // getters needed to make imported data available to template
