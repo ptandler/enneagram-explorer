@@ -79,7 +79,7 @@
         <b-row align-h="center">
           <b-col cols="12">
             <div class="enneagram">
-              <EnneagramSvg />
+              <EnneagramSvg v-hammer:pinchstart="onPinchStart" v-hammer:pinch="onPinch" :style="scaleStyle" />
             </div>
           </b-col>
           <b-col cols="12" sm="6" lg="4" v-for="i in 9" :key="i" v-show="showNumber(i)">
@@ -129,6 +129,16 @@ export default class Enneagram extends Vue {
   public showPlainContents = ["Grundangst", "Grundbedürfnis"]
   public tabIndex = 1
   public useVerticalMenu = true
+
+  // for zooming SVG
+
+  /** current scale factor for font-size */
+  protected scale = 1.0
+
+  /** scale factor for font-size before an ongoing pinch gesture was started */
+  protected startScale = 1.0
+
+  // constructor
 
   public created() {
     // adjust the orientation of the tab list, depending on device orientation
@@ -196,6 +206,30 @@ export default class Enneagram extends Vue {
     }
   }
 
+  // zooming the Enneagram SVG
+
+  protected get scaleStyle() {
+    return {
+      transform: "scale(" + this.scale + ")",
+    }
+  }
+
+  protected onPinchStart(event: any) {
+    // event.preventDefault()
+    event.srcEvent.stopPropagation()
+    // remember the scale when we started a pinch gesture action (finger down)
+    this.startScale = this.scale
+    // console.log("***start svg!", event, event.scale, this.scale)
+  }
+
+  protected onPinch(event: any) {
+    // event.preventDefault()
+    event.srcEvent.stopPropagation()
+    // adjust the scale relative to the scale when the gesture started
+    this.scale = Math.max(0.5, Math.min(this.startScale * event.scale, 8))
+    // console.log("pinch svg", event, event.scale, this.scale)
+  }
+
   // getters needed to make imported data available to template
 
   get centerIds() {
@@ -258,9 +292,13 @@ export default class Enneagram extends Vue {
   }
 }
 
-.enneagram svg {
-  max-height: 40vh;
-  max-width: 100%;
+.enneagram {
+  overflow: auto;
+
+  svg {
+    max-height: 40vh;
+    max-width: 100%;
+  }
 }
 
 // when menu is to the side
