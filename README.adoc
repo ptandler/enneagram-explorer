@@ -39,6 +39,16 @@ yarn run lint
 
 * add i18n
 
+== Changelog
+
+=== v0.3.0
+
+* added pinch zoom for font-size
+
+=== v0.2.2 (2019-08-21)
+
+First more or less nicely working version.
+
 == Update Enneagram.svg
 
 How to update the embedded Enneagram.svg:
