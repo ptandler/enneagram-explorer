@@ -129,10 +129,12 @@ export default class EnneaNumber extends Vue {
 
 .card {
   margin: 15px;
-  max-height: 22vh;
+  max-height: 14em;
+  /*
   @media (orientation: landscape) {
     max-height: 40vh;
   }
+*/
   overflow-y: auto;
 
   .card-header {
