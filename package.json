@@ -1,6 +1,6 @@
 {
   "name": "enneagram-explorer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "WebApp to quickly look up some of the most important aspects of the Enneagram. You can use it when you've just got your mobile at hand but not all your great books (in German)",
   "keywords": [
     "javascript",
@@ -26,7 +26,7 @@
     "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt && npx cap copy",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,webmanifest,md}",
-    "prettier-watch": "onchange '**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
+    "prettier-watch": "onchange -v '**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
     "favicon": "yarn favicon:generate && yarn favicon:inject",
     "favicon:generate": "npx real-favicon generate faviconDescription.json faviconData.json public/img/icons",
     "favicon:inject": "npx real-favicon inject faviconData.json public public/index.html && yarn prettier",
@@ -57,6 +57,7 @@
     "@vue/cli-service": "^3.9.3",
     "cli-real-favicon": "^0.0.8",
     "lint-staged": "^9.2.1",
+    "onchange": "^6.1.0",
     "prettier": "1.18.2",
     "sass": "^1.18.0",
     "sass-loader": "^7.0.1",
