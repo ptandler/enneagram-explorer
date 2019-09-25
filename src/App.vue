@@ -21,10 +21,16 @@ import { Component, Vue } from "vue-property-decorator"
 @Component
 export default class App extends Vue {
   /** current scale factor for font-size */
-  protected scale = 1.0
+  protected scale = 1
 
   /** scale factor for font-size before an ongoing pinch gesture was started */
-  protected startScale = 1.0
+  protected startScale = 1
+
+  /** min scale factor for font-zooming */
+  protected minScale = 0.5
+
+  /** max scale factor for font-zooming */
+  protected maxScale = 4
 
   protected get scaleStyle() {
     return {
@@ -40,7 +46,7 @@ export default class App extends Vue {
 
   public onPinch(event: any) {
     // adjust the scale relative to the scale when the gesture started
-    this.scale = Math.max(0.5, Math.min(this.startScale * event.scale, 8))
+    this.scale = Math.max(this.minScale, Math.min(this.startScale * event.scale, this.maxScale))
     // console.log("pinch", event, event.scale, this.scale)
   }
 }
