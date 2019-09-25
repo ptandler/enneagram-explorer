@@ -4,9 +4,10 @@
  * reference: Reifarth, p. 38
  */
 
-import { ReferenceContent } from "@/data/references"
+import { ReferenceContent, ReferenceKeys } from "@/data/references"
 
-export const defaultCenter = "rohr_ebert"
+export const defaultCenter: ReferenceKeys = "rohr_ebert"
+
 export interface CenterInfo {
   heart: string
   head: string

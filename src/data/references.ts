@@ -109,6 +109,8 @@ export default references
 
 export type References = typeof references
 
+export type ReferenceKeys = keyof References
+
 export type ReferenceContent<T> = {
-  [P in keyof References]?: T
+  [P in ReferenceKeys]?: T
 }

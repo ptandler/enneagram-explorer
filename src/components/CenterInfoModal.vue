@@ -20,7 +20,11 @@ export default class CenterInfoModal extends Vue {
     if (!this.centerId) {
       return ""
     }
-    return centers[defaultCenter][this.centerId]
+    const center = centers[defaultCenter]
+    if (!center) {
+      return ""
+    }
+    return center[this.centerId]
   }
   get centers() {
     return centers
