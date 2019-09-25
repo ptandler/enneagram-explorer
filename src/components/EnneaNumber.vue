@@ -25,17 +25,15 @@
       <b-card-body>
         <b-card-text
           ><b>Leidenschaft</b>:
-          <span
-            v-for="(emotion, ref) in emotions"
-            :key="ref"
-            v-if="showEmotions.indexOf(ref) >= 0"
-            v-b-tooltip
-            :title="references[ref].author"
-            class="content emotion"
-          >
-            {{ emotion[number] }}
-          </span>
-        </b-card-text>
+          <template v-for="(authors, emotion, index) in visibleEmotions"
+            ><span :key="emotion"
+              ><template v-if="index > 0"
+                >,
+              </template>
+              <span v-b-tooltip :title="authors" class="emotion">{{ emotion }}</span></span
+            ></template
+          ></b-card-text
+        >
         <b-card-text
           v-for="(content, i) in contents"
           :key="i"
@@ -53,14 +51,15 @@
 
 <script lang="ts">
 import { Vue, Component, Prop } from "vue-property-decorator"
-import centers, { defaultCenter } from "@/data/centers"
+import centers, { defaultCenter, Centers } from "@/data/centers"
 import names from "@/data/names"
 import references from "@/data/references"
 import { contents, emotions } from "@/data/contents"
+import { EnneagramNumbers } from "@/data/enneagramTypes"
 
 @Component
 export default class EnneaNumber extends Vue {
-  @Prop(Number) protected readonly number: number | undefined
+  @Prop(Number) protected readonly number: EnneagramNumbers | undefined
   @Prop(Array) protected readonly showNames: string[] | undefined
   @Prop(Array) protected readonly showEmotions: string[] | undefined
   @Prop(Object) protected readonly showContents: any | undefined
@@ -90,6 +89,31 @@ export default class EnneaNumber extends Vue {
   // noinspection JSMethodCanBeStatic
   get emotions() {
     return emotions
+  }
+
+  get visibleEmotions() {
+    const visibleEmotions: { [key: string]: string } = {}
+    if (this.showEmotions && this.number) {
+      let ref: keyof typeof emotions // somehow TypeScript can't infer this automatically
+      for (ref in emotions) {
+        if (emotions.hasOwnProperty(ref)) {
+          // check if visible (selected by user)
+          const emotion = emotions[ref]
+          if (this.showEmotions.indexOf(ref) >= 0 && emotion) {
+            const text = emotion[this.number]
+            if (text) {
+              // check if emotion is already included
+              if (visibleEmotions[text]) {
+                visibleEmotions[text] += " & " + references[ref].author
+              } else {
+                visibleEmotions[text] = references[ref].author
+              }
+            }
+          }
+        }
+      }
+    }
+    return visibleEmotions
   }
 
   // noinspection JSMethodCanBeStatic
