@@ -181,7 +181,7 @@ export default class Enneagram extends Vue {
       hideSocialStyles: !this.showSocialStyles,
     }
     for (let i = 1; i <= 9; i++) {
-      if (this.showNumber(1)) {
+      if (this.showNumber(i)) {
         cssClasses["showNumber" + i] = true
       }
     }
