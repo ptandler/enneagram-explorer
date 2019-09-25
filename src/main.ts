@@ -33,7 +33,7 @@ Vue.use(VueHammer)
 
 // no idea how I could set the global options in VueHammer ...
 import Hammer from "hammerjs"
-// set the touchAction to pan-y to ensure that we still can scroll on the page (via brwoser)
+// set the touchAction to pan-y to ensure that we still can scroll on the page (via browser)
 Hammer.defaults.touchAction = "pan-y"
 // domEvents must be enabled to use preventPropagation() with touch events https://stackoverflow.com/a/39103630/1480587
 Hammer.defaults.domEvents = true

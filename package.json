@@ -24,6 +24,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt && npx cap copy",
+    "cap-copy": "cap copy",
     "lint": "vue-cli-service lint",
     "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,webmanifest,md}",
     "prettier-watch": "onchange -v '**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
