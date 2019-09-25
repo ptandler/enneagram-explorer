@@ -10,7 +10,7 @@ export interface Reference {
   ISBN: string
 }
 
-export default {
+const references = {
   reifarth: {
     author: "W. Reifarth",
     title: "Das Enneagramm - Idee, Dynamik, Dimensionen",
@@ -100,8 +100,15 @@ export default {
   },
   palmer: {
     author: "Helen Palmer",
-    title: "Das Enneagramm. Sich selbt und andere verstehen lernen",
+    title: "Das Enneagramm. Sich selbst und andere verstehen lernen",
     year: 1991,
     citedBy: "reifarth",
   },
+}
+export default references
+
+export type References = typeof references
+
+export type ReferenceContent<T> = {
+  [P in keyof References]?: T
 }

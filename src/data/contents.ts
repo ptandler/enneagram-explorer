@@ -1,4 +1,18 @@
-export const emotions = {
+import { ReferenceContent } from "@/data/references"
+import { EnneagramNumberToString } from "@/data/enneagramTypes"
+
+export interface Content extends EnneagramNumberToString {
+  title?: string
+  intro?: string
+  page?: string
+  showIf?: string
+}
+
+export interface ContentWithRef extends Content {
+  refId?: string
+}
+
+export const emotions: ReferenceContent<Content> = {
   reifarth: {
     page: "S. 47",
     1: "Zorn",
@@ -37,7 +51,7 @@ export const emotions = {
   },
 }
 
-export const contents = [
+export const contents: ContentWithRef[] = [
   {
     title: "Desintegrations-Richtung (Verwicklung)",
     refId: "riso_hudson",

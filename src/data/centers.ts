@@ -4,11 +4,18 @@
  * reference: Reifarth, p. 38
  */
 
+import { ReferenceContent } from "@/data/references"
+
 export const defaultCenter = "rohr_ebert"
-export type Centers = "heart" | "head" | "gut"
+export interface CenterInfo {
+  heart: string
+  head: string
+  gut: string
+}
+export type Centers = keyof CenterInfo
 export const centerIds: Centers[] = ["heart", "head", "gut"]
 
-export default {
+const centers: ReferenceContent<CenterInfo> = {
   rohr_ebert: {
     heart: "Herzzentrum",
     head: "Kopfzentrum",
@@ -45,3 +52,4 @@ export default {
     gut: "Zerstörende Kraft; ZORN: «Gegen»-Bewegung",
   },
 }
+export default centers
