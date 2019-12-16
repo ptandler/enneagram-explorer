@@ -912,6 +912,13 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@types/vue2-hammer@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/vue2-hammer/-/vue2-hammer-2.1.0.tgz#c1f48c4abfe9ccefae98acaaf21a9240affaaab8"
+  integrity sha512-8ZJeYlt3L1R+nychf030mJNRr7ktGKCRF9EEtnX4VxCgMRmXPHakoqQ1pVYUA8evXYTMT5uqSon25GcRnFCpfQ==
+  dependencies:
+    vue ">=2.0.0"
+
 "@types/webpack-env@^1.13.9":
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.14.1.tgz#0d8a53f308f017c53a5ddc3d07f4d6fa76b790d7"
@@ -1812,7 +1819,7 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap-vue@^2.0.0-rc.27:
+bootstrap-vue@2:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/bootstrap-vue/-/bootstrap-vue-2.1.0.tgz#41c0cd265a6cea14ffe29eeea71543ec396d1789"
   integrity sha512-dftb5fc42x7QLv814nN+3Cx8MMuCB+xrGQjOmSXH81ET0+yo7KYb4lUN3/pOnf+8Tkv8oaawZ1OOth5/AZfktg==
@@ -8620,7 +8627,7 @@ vue2-hammer@^2.1.2:
     babel-runtime "^6.26.0"
     hammerjs "^2.0.8"
 
-vue@^2.6.10:
+vue@>=2.0.0, vue@^2.6.10:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
