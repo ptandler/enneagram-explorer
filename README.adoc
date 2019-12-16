@@ -41,6 +41,11 @@ yarn run lint
 
 == Changelog
 
+=== v0.3.2 (2019-12-16)
+
+* updated dependencies (security fixes)
+* the cards showing the information about numbers are no longer constrained in height
+
 === v0.3.0
 
 * added pinch zoom for font-size
