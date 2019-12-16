@@ -1,11 +1,14 @@
-and_chr 75
-and_ff 67
+and_chr 78
+and_ff 68
 and_qq 1.2
 and_uc 12.12
-android 67
+android 76
 android 4.4.3-4.4.4
 android 4.4
 baidu 7.12
+chrome 78
+chrome 77
+chrome 76
 chrome 75
 chrome 74
 chrome 73
@@ -44,6 +47,8 @@ edge 15
 edge 14
 edge 13
 edge 12
+firefox 70
+firefox 69
 firefox 68
 firefox 67
 firefox 66
@@ -78,7 +83,9 @@ firefox 38
 ie 11
 ie 10
 ie_mob 11
-ios_saf 12.2-12.3
+ios_saf 13.2
+ios_saf 13.0-13.1
+ios_saf 12.2-12.4
 ios_saf 12.0-12.1
 ios_saf 11.3-11.4
 ios_saf 11.0-11.2
@@ -89,6 +96,8 @@ ios_saf 9.0-9.2
 kaios 2.5
 op_mini all
 op_mob 46
+opera 64
+opera 63
 opera 62
 opera 60
 opera 58
@@ -120,6 +129,7 @@ opera 33
 opera 32
 opera 31
 opera 30
+safari 13
 safari 12.1
 safari 12
 safari 11.1
@@ -128,4 +138,4 @@ safari 10.1
 safari 10
 safari 9.1
 safari 9
-samsung 9.2
+samsung 10.1
