@@ -1,4 +1,7 @@
-export default {
+import { Content } from "@/data/contents"
+import { ReferenceContent } from "@/data/references"
+
+const names: ReferenceContent<Content> = {
   boeschemeyer: {
     1: "Der Reformer",
     2: "Der Helfer",
@@ -122,3 +125,4 @@ export default {
     9: "Der Heilige",
   },
 }
+export default names

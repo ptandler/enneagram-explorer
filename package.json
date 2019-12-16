@@ -1,37 +1,23 @@
 {
   "name": "enneagram-explorer",
-  "version": "0.3.1",
+  "version": "0.3.2",
+  "private": false,
   "description": "WebApp to quickly look up some of the most important aspects of the Enneagram. You can use it when you've just got your mobile at hand but not all your great books (in German)",
-  "keywords": [
-    "javascript",
-    "typescript",
-    "vuejs",
-    "enneagram",
-    "enneagramm"
-  ],
-  "homepage": "https://github.com/ptandler/enneagram-explorer/",
-  "bugs": "https://github.com/ptandler/enneagram-explorer/issues",
-  "license": "MIT",
   "author": {
     "name": "Peter Tandler",
     "url": "https://github.com/ptandler"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ptandler/enneagram-explorer.git"
-  },
-  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt && npx cap copy",
-    "cap-copy": "cap copy",
     "lint": "vue-cli-service lint",
-    "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,webmanifest,md}",
-    "prettier-watch": "onchange -v '**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}",
+    "cap-copy": "cap copy",
     "favicon": "yarn favicon:generate && yarn favicon:inject",
     "favicon:generate": "npx real-favicon generate faviconDescription.json faviconData.json public/img/icons",
     "favicon:inject": "npx real-favicon inject faviconData.json public public/index.html && yarn prettier",
-    "favicon:update": "npx real-favicon check-for-update --fail-on-update faviconData.json"
+    "favicon:update": "npx real-favicon check-for-update --fail-on-update faviconData.json",
+    "prettier": "prettier --write **/*.{ts,js,vue,css,less,sass,scss,html,json,webmanifest,md}",
+    "prettier-watch": "onchange -v '**/*.{ts,js,vue,css,less,scss,html,json,webmanifest,md}' -- prettier --write {{changed}}"
   },
   "dependencies": {
     "@capacitor/android": "^1.1.1",
@@ -41,8 +27,9 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "@types/hammerjs": "^2.0.36",
-    "bootstrap-vue": "^2.0.0-rc.27",
-    "core-js": "^2.6.5",
+    "@types/vue2-hammer": "^2.1.0",
+    "bootstrap-vue": "^2.1.0",
+    "core-js": "^3.4.3",
     "hammerjs": "^2.0.8",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
@@ -52,30 +39,44 @@
     "vue2-hammer": "^2.1.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.2",
-    "@vue/cli-plugin-pwa": "^3.9.0",
-    "@vue/cli-plugin-typescript": "^3.9.0",
-    "@vue/cli-service": "^3.9.3",
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-pwa": "^4.1.1",
+    "@vue/cli-plugin-typescript": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
     "cli-real-favicon": "^0.0.8",
     "lint-staged": "^9.2.1",
     "onchange": "^6.1.0",
-    "prettier": "1.18.2",
+    "prettier": "1.19",
     "sass": "^1.18.0",
-    "sass-loader": "^7.0.1",
+    "sass-loader": "8",
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.5.3",
-    "vue-svg-loader": "^0.12.0",
+    "vue-svg-loader": "0",
     "vue-template-compiler": "^2.6.10"
   },
+  "bugs": "https://github.com/ptandler/enneagram-explorer/issues",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
+  "homepage": "https://github.com/ptandler/enneagram-explorer/",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "vuejs",
+    "enneagram",
+    "enneagramm"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,vue,css,less,sass,scss,html,json,md}": [
       "prettier --write",
       "git add"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptandler/enneagram-explorer.git"
   }
 }

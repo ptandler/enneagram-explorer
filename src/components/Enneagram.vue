@@ -125,7 +125,7 @@ export default class Enneagram extends Vue {
   public showAxes = false
   public showSocialStyles = false
   public showNames = ["hurley_dobson"]
-  public showEmotions = ["enneallionce"]
+  public showEmotions = ["enneallionce", "reifarth", "riso_hudson"]
   public showPlainContents = ["Grundangst", "Grundbedürfnis"]
   public tabIndex = 1
   public useVerticalMenu = true
