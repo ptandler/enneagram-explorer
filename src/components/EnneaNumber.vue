@@ -27,9 +27,7 @@
           ><b>Leidenschaft</b>:
           <template v-for="(authors, emotion, index) in visibleEmotions"
             ><span :key="emotion"
-              ><template v-if="index > 0"
-                >,
-              </template>
+              ><template v-if="index > 0">, </template>
               <span v-b-tooltip :title="authors" class="emotion">{{ emotion }}</span></span
             ></template
           ></b-card-text
@@ -153,8 +151,8 @@ export default class EnneaNumber extends Vue {
 
 .card {
   margin: 15px;
-  max-height: 14em;
   /*
+  max-height: 14em;
   @media (orientation: landscape) {
     max-height: 40vh;
   }
