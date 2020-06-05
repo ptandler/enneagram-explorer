@@ -11,6 +11,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --modern && npx browserslist > docs/supported-browsers.txt && npx cap copy",
     "lint": "vue-cli-service lint",
+    "preversion": "yarn lint",
+    "postversion": "echo \"Start release $npm_package_version\" && git flow release start $npm_package_version",
     "cap-copy": "cap copy",
     "favicon": "yarn favicon:generate && yarn favicon:inject",
     "favicon:generate": "npx real-favicon generate faviconDescription.json faviconData.json public/img/icons",
