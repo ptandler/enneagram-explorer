@@ -27,10 +27,10 @@ export default class App extends Vue {
   protected startScale = 1
 
   /** min scale factor for font-zooming */
-  protected minScale = 0.5
+  protected minScale = 0.8
 
   /** max scale factor for font-zooming */
-  protected maxScale = 4
+  protected maxScale = 2
 
   protected get scaleStyle() {
     return {
