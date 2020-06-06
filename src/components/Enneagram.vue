@@ -79,7 +79,9 @@
         <b-row align-h="center">
           <b-col cols="12">
             <div class="enneagram">
-              <EnneagramSvg />
+              <SvgPanZoom :zoomEnabled="true" :controlIconsEnabled="true" :fit="false" :center="true">
+                <EnneagramSvg />
+              </SvgPanZoom>
             </div>
           </b-col>
           <b-col cols="12" sm="6" lg="4" v-for="i in 9" :key="i" v-show="showNumber(i)">
@@ -106,6 +108,7 @@ import names from "@/data/names"
 import references from "@/data/references"
 import { contents, emotions } from "@/data/contents"
 import { centerIds } from "@/data/centers"
+import SvgPanZoom from "vue-svg-pan-zoom"
 
 @Component({
   components: {
@@ -113,9 +116,42 @@ import { centerIds } from "@/data/centers"
     EnneaNumber,
     CenterInfoModal,
     Ref,
+    SvgPanZoom,
   },
 })
 export default class Enneagram extends Vue {
+  get showContents() {
+    const combinedContents: any = {
+      showArrowsIntegration: this.showArrowsIntegration,
+      showArrowsDisintegration: this.showArrowsDisintegration,
+    }
+    for (const key of this.showPlainContents) {
+      combinedContents[key] = true
+    }
+    return combinedContents
+  }
+  // getters needed to make imported data available to template
+
+  get centerIds() {
+    return centerIds
+  }
+
+  get names() {
+    return names
+  }
+
+  get references() {
+    return references
+  }
+
+  get emotions() {
+    return emotions
+  }
+
+  get contents() {
+    return contents
+  }
+
   public showHelpers = false
   public showCenters = true
   public showNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -152,17 +188,6 @@ export default class Enneagram extends Vue {
     return this.showNumbers.indexOf(n) >= 0
   }
 
-  get showContents() {
-    const combinedContents: any = {
-      showArrowsIntegration: this.showArrowsIntegration,
-      showArrowsDisintegration: this.showArrowsDisintegration,
-    }
-    for (const key of this.showPlainContents) {
-      combinedContents[key] = true
-    }
-    return combinedContents
-  }
-
   protected activatedCssClasses() {
     const cssClasses: any = {
       showHelpers: this.showHelpers,
@@ -195,31 +220,6 @@ export default class Enneagram extends Vue {
       this.$router.push("/")
     }
   }
-
-  // getters needed to make imported data available to template
-
-  get centerIds() {
-    return centerIds
-  }
-
-  get names() {
-    return names
-  }
-
-  get references() {
-    return references
-  }
-
-  get emotions() {
-    return emotions
-  }
-
-  get contents() {
-    return contents
-  }
-
-  // public created() {
-  // }
 }
 </script>
 

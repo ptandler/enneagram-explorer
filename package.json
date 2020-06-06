@@ -38,6 +38,7 @@
     "vue-class-component": "^7.1.0",
     "vue-property-decorator": "^8.2.1",
     "vue-router": "^3.0.7",
+    "vue-svg-pan-zoom": "^1.1.0",
     "vue2-hammer": "^2.1.2"
   },
   "devDependencies": {
